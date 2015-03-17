@@ -11,7 +11,7 @@ We can use Karel's commands to create new **programs**. A program is like a list
 
 Let's have Karel put down a ball in the middle of the world, as shown below.
 
-![Move, turn, and put a ball](../static/karel-more-basic-karel.gif)
+![Move, turn, and put a ball](../static/karel/karel-more-basic-karel.gif)
 
 The first command we'll need is `move();` to have Karel move forward. Then Karel will `turnLeft();` and `move();` again to get to the center of the world. Once there, Karel can use `putBall();` to set down a ball, then `turnLeft();` three times to face the starting direction.
 
