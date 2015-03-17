@@ -11,7 +11,7 @@ There are two main categories of control structures that we have learned so far.
 |If Statement      |   For Loop |
 |If-Else Statement | While Loop |
 
-![Karel needs to place tennis![](karel-put-ball.png) balls](../static/karel-put-ball.png)
+![Karel needs to place tennis balls](../static/karel/karel-put-ball.png)
 
 In the world above, Karel needs to put down five tennis balls in every empty spot. If a spot is not empty, Karel should only put down one more tennis ball.
 
@@ -41,4 +41,4 @@ A typical solution for this challenge may look like:
         }
     }
 
-![Karel needs to place tennis balls](../static/karel-put-ball-result.png)
+![Karel needs to place tennis balls](../static/karel/karel-put-ball-result.png)
