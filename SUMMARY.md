@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 
-
 * [Programming with Karel](Programming-with-Karel/README.md)
     * [Introduction to Programming with Karel](Programming-with-Karel/introduction-to-prog-karel.md)  
     * [More Basic Karel](Programming-with-Karel/more-basic-karel.md)
@@ -18,7 +17,6 @@
     * [While Loops in Karel](Programming-with-Karel/while-loops-in-karel.md)
     * [Control Structures Example](Programming-with-Karel/control-structures-example.md)
     * [How to Indent Your Code](Programming-with-Karel/how-to-indent-your-code.md)
-
 
 * [Basic JavaScript and Graphics](Basic-JavaScript-and-Graphics/README.md)
     * [Hello World](Basic-JavaScript-and-Graphics/hello-world.md)
@@ -38,7 +36,6 @@
     * [Functions and Return Values](Basic-JavaScript-and-Graphics/functions-and-return-values.md)
     * [Local Variables and Scope](Basic-JavaScript-and-Graphics/local-variables-and-scope.md)
 
-
 * [Animation and Games](Animation-and-Games/README.md)
     * [Timers](Animation-and-Games/timers.md)
     * [Random Circles](Animation-and-Games/random-circles.md)
@@ -50,7 +47,6 @@
     * [Key Events](Animation-and-Games/key-events.md)
     * [Crazy Ball Game](Animation-and-Games/crazy-ball-game.md)
     * [Breakout](Animation-and-Games/breakout.md)
-
 
 * [Basic Data Structures](Basic-Data-Structures/README.md)
     * [Intro to Lists/Arrays](Basic-Data-Structures/intro-to-lists-arrays.md) 
@@ -68,7 +64,6 @@
     * [Intro to Grids](Basic-Data-Structures/intro-to-grids.md)
     * [Looping over a Grid](Basic-Data-Structures/looping-over-a-grid.md)
     * [Grid Example: Get a Row](Basic-Data-Structures/grid-example-get-a-row.md)
-
 
 * [testing scratchpad](test.md)
 
