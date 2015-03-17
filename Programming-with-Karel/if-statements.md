@@ -17,7 +17,7 @@ Given these changing conditions, there are many questions that would be useful f
 These types of questions can be asked using **conditions**. Conditions are very simple functions that look at the state of Karel's world and return a true or false answer. Here is a list of the conditions that Karel can check:
 
 |  |  |
-| -- | -- |
+| -------------- | ---------------- |
 | frontIsClear() | frontIsBlocked() |
 | leftIsClear()  | leftIsBlocked()  | 
 | rightIsClear() | rightIsBlocked() | 
@@ -31,7 +31,7 @@ Like Karel's other commands, it is important to include the parentheses `()` at 
 
 In the following world, the `frontIsClear()` condition returns true, as Karel's front is clear. The `ballsPresent()` condition also returns true, because Karel is standing on a ball. Similarly, the `facingSouth()` condition would return false, as Karel is not facing south.
 
-![Karel Conditions](../static/karel-is-ball.png)
+![Karel Conditions](../static/karel/karel-is-ball.png)
 
 
 ## Introducing If Statements
@@ -59,6 +59,6 @@ Karel uses if statements and conditions in a similar way. For example, in the wo
     
 Using an if statement to check the world before moving helps Karel avoid crashing into the wall. Such a check would be important in a world like this one:
 
-![Karel's front is blocked](../static/karel-no-move.png)
+![Karel's front is blocked](../static/karel/karel-no-move.png)
 
 
