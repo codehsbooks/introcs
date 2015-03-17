@@ -7,23 +7,23 @@ When we defined functions, we said that functions are used to break down the pro
 
 Here are some guidelines for when to put a group of commands into their own function.
 
-1. The group of commands accomplishes a specific task 
+1. The group of commands accomplishes a specific task
 2. The specific task is used more than once
 3. The specific task solves a smaller problem, but helps solve the bigger problem.  If this is the case, it is ok if the function is only used once.
 
 This leads us to the next discussion - what does it mean to have a specific task or a smaller problem?
 
 ## Top-down Design and Decomposition
-Each program has the goal of solving a problem.  Most of the time, this problem is rather large and complex, or at least can be broken down into several parts. 
+Each program has the goal of solving a problem.  Most of the time, this problem is rather large and complex, or at least can be broken down into several parts.
 
 When you write your program, you first want to consider the big picture - what is your overall goal?  Then you want to break down the problem into smaller chunks.  What is the first step?  The second step?  Once you have your steps, can you break down the steps even further?  Keep breaking down each subproblem until you have defined definite tasks that need to be accomplished.  These tasks don't need to be so small they are accomplished in a single command, but they should be small enough that you could describe them in a short, single sentence.
 
 ## Making a Movie
 As an analogy, think about making a movie.  The biggest problem that needs to be solved is that we want a feature length movie that will have the biggest names in Hollywood with awesome special effects and will entertain everyone who sees it.  You can see that this is a very large problem.  So let's break it down, as shown in the picture below.
 
-![Movie Subproblems](../static/movieDiagram.PNG "Karel is Stuck")
+![Movie Subproblems](../static/karel/movieDiagram.png "Karel is Stuck")
 
-The big problem is shown at the top.  Then it is broken down into 4 subproblems.  We need to entertain everyone, so we need a good script.  We want the biggest names in Hollywood, so we need to solve the cast and crew problem.  Then we want awesome sound effects, so we need to edit the movie.  We actually need to have footage, so we need to film the movie.  
+The big problem is shown at the top.  Then it is broken down into 4 subproblems.  We need to entertain everyone, so we need a good script.  We want the biggest names in Hollywood, so we need to solve the cast and crew problem.  Then we want awesome sound effects, so we need to edit the movie.  We actually need to have footage, so we need to film the movie.
 
 Then you can see that each one of these problems needs to be broken down into more managable problems.  Here, we only show that Film the Movie gets broken down into filming each scene.
 
@@ -32,10 +32,10 @@ You can see how each little problem is combined with the solutions to the other 
 ## Hurdle Karel
 Now, say we have a problem where we want Karel to go down the street and jump over all of the hurdles.  The beginning world would look like this:
 
-![Starting Hurdles](../static/hurdle_Karel_start.PNG "Karel is Stuck")
+![Starting Hurdles](../static/karel/hurdle_Karel_start.png "Karel is Stuck")
 
 And the ending world looks like this:
-![Ending Hurdles](../static/hurdle_Karel_end.PNG "Karel is Stuck")
+![Ending Hurdles](../static/karel/hurdle_Karel_end.png "Karel is Stuck")
 
 Let's think about how to solve this. What is the big goal?  We want Karel to go down the street, jump over every hurdle, and stop at the end.
 
@@ -46,7 +46,7 @@ What are the next smaller goals?
 
 
 What tasks should be accomplished in functions?
-1. Karel should go to the next hurdle 
+1. Karel should go to the next hurdle
 2. Karel should jump over the hurdle
 3. Karel should stop at the wall at the end of the street
 
