@@ -16,6 +16,6 @@ Introduction to computer science.
 
 
 ### Contributors
-We'd like to thank all those who have helped write this book: 
+We'd like to thank all those who have helped write this book:
 
-- Karel the Dog (@karelthedog)
+- Karel the Dog (@karelthedog, http://karelthedog.com/)
