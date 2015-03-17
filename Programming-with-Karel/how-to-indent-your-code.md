@@ -5,7 +5,8 @@ Indentation is a fundamental aspect of code styling, and plays a large role in i
 ```
 while(notFacingLeft())
     turnLeft();
-    move();```
+    move();
+```
 
 Because the code on line 3 is indented, it may seem to be part of the body of the while loop. But, remember that without brackets, the while loop body can only consist of one line of code. So, this code is really equivalent to:
 
@@ -13,7 +14,8 @@ Because the code on line 3 is indented, it may seem to be part of the body of th
 while(notFacingLeft()) {
     turnLeft();
 }
-move();```
+move();
+```
 
 
 
