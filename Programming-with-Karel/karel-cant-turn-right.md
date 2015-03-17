@@ -6,7 +6,7 @@ In all of our programs so far, Karel has only been able to understand four comma
 Recall in the last section how we made Karel make a tower of tennis balls.  We told Karel
 to `move()` and `turnLeft()` and `putBall()` until we had a tower.  At the end of the program, Karel was still at the top of the tower, like as in the picture below.  
 
-![Stuck at top](../static/karel_tower.PNG "Karel is Stuck")
+![Stuck at top](../static/karel/karel_tower.PNG "Karel is Stuck")
 
 
 Suppose that now we want Karel to come back down from the top of the tower.  The first thing we need to do is get Karel facing in the right direction.  One way to do this is to tell Karel
