@@ -4,9 +4,9 @@ In all of our programs so far, Karel has only been able to understand four comma
 
 ## Revisiting "Build a Tower"
 Recall in the last section how we made Karel make a tower of tennis balls.  We told Karel
-to `move()` and `turnLeft()` and `putBall()` until we had a tower.  At the end of the program, Karel was still at the top of the tower, like as in the picture below.  
+to `move()` and `turnLeft()` and `putBall()` until we had a tower.  At the end of the program, Karel was still at the top of the tower, like as in the picture below.
 
-![Stuck at top](../static/karel/karel_tower.PNG "Karel is Stuck")
+![Stuck at top](../static/karel/karel_tower.png "Karel is Stuck")
 
 
 Suppose that now we want Karel to come back down from the top of the tower.  The first thing we need to do is get Karel facing in the right direction.  One way to do this is to tell Karel
@@ -16,13 +16,13 @@ turnLeft();
 turnLeft();
 turnLeft();
 ```
-And then tell Karel to 
+And then tell Karel to
 ```
 move();
 move();
 move();
 ```
-back to the bottom of the tower.  
+back to the bottom of the tower.
 
 However, telling Karel to `turnLeft()` three times is not very readable.  That's a lot of writing when all we really want is to tell Karel to "turn right."
 
@@ -32,7 +32,7 @@ However, telling Karel to `turnLeft()` three times is not very readable.  That's
 ## Introducing Functions
 How do we go about teaching Karel new tricks?   We can teach Karel new commands using functions.   We've seen that Karel already knows four commands, or functions.  Now we want to teach Karel a new command, `turnRight()`.  We can teach Karel to turn right by defining a function called `turnRight()` that shows Karel how to turn to the right.
 
- 
+
 ## Writing `turnRight()`
 The very first thing we need to do is declare the function `turnRight()`.  So on a blank line in our program, we write
 
