@@ -49,8 +49,8 @@ Consider each code snippet.  Decide if the start function is formatted correctly
 
 <p>
 function Start() {</br>                        
-    // program commands go here </br>
-    }                          </br>       
+&emsp;// program commands go here </br>
+    }</br>                          </br>       
 Is this start function declared correctly?
 </p>
 - (x) Yes
@@ -64,7 +64,7 @@ Is this start function declared correctly?
        function start() {           </br>
                                        </br>
         }                              </br>
-          // program commands go here   </br>
+        &emsp;// program commands go here   </br> </br>
 Is this start function declared correctly?
 </p>
 - ( ) Yes
@@ -77,9 +77,9 @@ Is this start function declared correctly?
 
 <p>
 function start() { </br>
-        start();        </br>           
-        // program commands go here </br>
-    }                         </br>
+    &emsp;start();        </br>           
+    &emsp;// program commands go here </br>
+    }  </br>                       </br>
 Is this start function declared correctly?
 </p>
 - ( ) Yes
