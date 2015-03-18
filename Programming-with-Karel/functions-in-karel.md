@@ -50,7 +50,7 @@ Use this quiz to test your understanding of functions!
 
 ---
 
-Which of the following are good function names?
+<p>Which of the following are good function names?</p>
 - [x]  goToEnd()
 - [ ] function one()
 - [ ] superimportantfunction()
