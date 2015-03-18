@@ -48,12 +48,12 @@ Consider each code snippet.  Decide if the start function is formatted correctly
 ---
 
 <p></p>
+
 <p>
 function start() {</br>                        
     // program commands go here </br>
     }                          </br>       
 </p>
-
 Is this start function declared correctly?
 - (x) Yes
 - ( ) No
@@ -67,7 +67,6 @@ Is this start function declared correctly?
         }                              </br>
           // program commands go here   </br>
 </p>
-
 Is this start function declared correctly?
 - ( ) Yes
 - (x) No
@@ -82,7 +81,6 @@ function start() { </br>
         // program commands go here </br>
     }                         </br>
 </p>
-
 Is this start function declared correctly?
 - ( ) Yes
 - (x) No
@@ -99,7 +97,6 @@ Is this start function declared correctly?
         // program commands go here  </br>
     }  </br>
 </p>
-
 Is this start function declared correctly?
 - ( ) Yes
 - (x) No
@@ -116,7 +113,6 @@ Is this start function declared correctly?
         // function definition goes here </br>
     } </br>
 </p>
-
 Is this start function declared correctly?
 - (x) Yes
 - ( ) No
