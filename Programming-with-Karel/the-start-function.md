@@ -25,7 +25,7 @@ Remember:
 
 ## Program Readability
 The `start()` function is the first step in making our program easy to understand by humans and by Karel.  We know that all of the commands that we make will be contained inside of the start function.  The next part in making our code easy to understand is how we organize the commands inside of the start function.
-
+    
 ### The Story of Our Program
 We want our code to read like a story.  For example, suppose we have code like the following.
 ```
