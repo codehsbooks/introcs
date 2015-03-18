@@ -45,45 +45,34 @@ We've only declared one of the needed functions in this example, but the point s
 ### Test Your Understanding
 Consider each code snippet.  Decide if the start function is formatted correctly and answer the question below the piece of code.
 
-```
- function start() {                        
-    // program commands go here       
-    }                                 
-```
+---
 
+<p>
+function start() {</br>                        
+    // program commands go here </br>
+    }                          </br>       
+</p>
 
-
-----
-
-|                                           | Yes  | No    |
-| --------------------------------------    | ---- | ---   |
-|  Is this start function declared correctly?| (x) | ( )   |
+Is this start function declared correctly?
+- (x) Yes
+- ( ) No
 
 > Yes.  All commands go inside of the start function
+> Not quite.  This is declared correctly since all of the commands are inside of the start function.
 
-----
+<p>
+       function start() {           </br>
+                                       </br>
+        }                              </br>
+          // program commands go here   </br>
+</p>
 
-
-
-
-```
-       function start() {           
-                                       
-        }                              
-          // program commands go here   
-```
-
-
-
-----
-
-
-|                                           | Yes  | No    |
-| --------------------------------------    | ---- | ---   |
-| Is this start function declared correctly?| ( )  | (x)   |
+Is this start function declared correctly?
+- ( ) Yes
+- (x) No
 
 > No!  Program commands must go INSIDE the start function
-
+> Correct!
 
 ----
 
