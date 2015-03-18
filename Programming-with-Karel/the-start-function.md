@@ -92,11 +92,11 @@ Is this start function declared correctly?
 
 <p>
     function start() { </br>
-        function putThreeBalls(){  </br>
-            // function definition goes here </br> 
-        }     </br>
-        // program commands go here  </br>
-    }  </br>
+    &emsp;function putThreeBalls(){  </br>
+    &emsp; &emsp;// function definition goes here </br> 
+    &emsp;}     </br>
+    &emsp;// program commands go here  </br>
+    }  </br> </br>
 Is this start function declared correctly?
 </p>
 - ( ) Yes
@@ -109,12 +109,12 @@ Is this start function declared correctly?
 
 <p>
     function start() { </br>
-    &emsp;   // program commands go here </br>
+&emsp;// program commands go here </br>
      </br>
-    function putThreeBalls(){  </br>
-        // function definition goes here </br>
-    } </br>
-Is this start function declared correctly?
+&emsp;function putThreeBalls(){  </br>
+&emsp; &emsp;// function definition goes here </br>
+    } </br> </br>
+    Is this start function declared correctly?
 </p>
 - (x) Yes
 - ( ) No
