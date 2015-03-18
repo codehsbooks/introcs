@@ -109,7 +109,7 @@ Is this start function declared correctly?
 
 <p>
     function start() { </br>
-        // program commands go here </br>
+    &emsp;   // program commands go here </br>
      </br>
     function putThreeBalls(){  </br>
         // function definition goes here </br>
