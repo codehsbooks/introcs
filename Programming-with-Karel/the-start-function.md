@@ -50,7 +50,7 @@ Consider each code snippet.  Decide if the start function is formatted correctly
 <p></p>
 
 <p>
-function start() {</br>                        
+function Start() {</br>                        
     // program commands go here </br>
     }                          </br>       
 </p>
