@@ -45,111 +45,84 @@ We've only declared one of the needed functions in this example, but the point s
 ### Test Your Understanding
 Consider each code snippet.  Decide if the start function is formatted correctly and answer the question below the piece of code.
 
-```
- function start() {                        
-    // program commands go here       
-    }                                 
-```
+---
 
+<p>
+function start() {</br>                        
+    // program commands go here </br>
+    }                          </br>       
+</p>
 
-
-----
-
-|                                           | Yes  | No    |
-| --------------------------------------    | ---- | ---   |
-|  Is this start function declared correctly?| (x) | ( )   |
+Is this start function declared correctly?
+- (x) Yes
+- ( ) No
 
 > Yes.  All commands go inside of the start function
+> Not quite.  This is declared correctly since all of the commands are inside of the start function.
 
-----
+<p>
+       function start() {           </br>
+                                       </br>
+        }                              </br>
+          // program commands go here   </br>
+</p>
 
-
-
-
-```
-       function start() {           
-                                       
-        }                              
-          // program commands go here   
-```
-
-
-
-----
-
-
-|                                           | Yes  | No    |
-| --------------------------------------    | ---- | ---   |
-| Is this start function declared correctly?| ( )  | (x)   |
+Is this start function declared correctly?
+- ( ) Yes
+- (x) No
 
 > No!  Program commands must go INSIDE the start function
 
+> Correct!
 
-----
+<p>
+function start() { </br>
+        start();        </br>           
+        // program commands go here </br>
+    }                         </br>
+</p>
 
-
-```      
-    function start() { 
-        start();                   
-        // program commands go here
-    }                         
-```
-
-
-
-----
-
-|                                           | Yes  | No    |
-| --------------------------------------    | ---- | ---   |
-|  Is this start function declared correctly?| ( ) | (x)   |
+Is this start function declared correctly?
+- ( ) Yes
+- (x) No
 
 > No!  Do not call the start function!  It gets called automatically.
 
----
+> Correct!
 
+<p>
+    function start() { </br>
+        function putThreeBalls(){  </br>
+            // function definition goes here </br> 
+        }     </br>
+        // program commands go here  </br>
+    }  </br>
+</p>
 
+Is this start function declared correctly?
+- ( ) Yes
+- (x) No
 
-```
-    function start() {
-        function putThreeBalls(){
-            // function definition goes here 
-        } 
-        // program commands go here
-   }
-```
+> No! Do not define functions inside of the start function.
 
+> Correct!
 
+<p>
+    function start() { </br>
+        // program commands go here </br>
+     </br>
+    function putThreeBalls(){  </br>
+        // function definition goes here </br>
+    } </br>
+</p>
 
----
-
-
-|                                           | Yes  | No    |
-| --------------------------------------    | ---- | ---   |
-|  Is this start function declared correctly?| ( ) | (x)   |
-
-> No!  Do not define functions inside of the start function.
-
-
----
-
-
-
-```
-    function start() {
-        // program commands go here
-    
-    function putThreeBalls(){
-        // function definition goes here
-    }
-```
-
----
-
-|                                           | Yes  | No    |
-| --------------------------------------    | ---- | ---   |
-|  Is this start function declared correctly?| (x) | ( )   |
+Is this start function declared correctly?
+- (x) Yes
+- ( ) No
 
 > Yes! Functions can be declared outside of the start function.
+
+> Not quite! Functions can be declared outside of the start function.
 
 ---
 

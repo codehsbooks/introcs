@@ -42,8 +42,8 @@ move(); </br>
 move(); </br>
 move(); </br>
 </p>
-- [x] Yes
-- [ ] No
+- (x) Yes
+- ( ) No
 
 > Right!
 > This is not correct.  This code is not commented usefully because we know that 3 moves will move Karel 3 spaces forward, the comment describes the purpose of the commands. 
@@ -55,8 +55,8 @@ This function moves Karel </br>
 function turnRight(){ </br>
 } </br>
 </p>
-- [ ] Yes
-- [x] No
+- ( ) Yes
+- (x) No
 
 > This is not correct.  First, the comment isn't formatted correctly.  There should be a "*/" at the end of the comment, or it should be a single line comment and use "//".  Second, the comment doesn't help us understand what the function's purpose is.
 > Right! 
@@ -67,8 +67,8 @@ move(); </br>
 // moves forward another space </br>
 move(); </br>
 </p>
-- [ ] Yes
-- [x] No
+- ( ) Yes
+- (x) No
 
 > This is not correct.  This piece of code has too many comments!  We know what the move function does.
 > Right! 
@@ -84,8 +84,8 @@ function jumpHurdle(){ </br>
     // code would go here. </br>
 } </br>
 </p>
-- [x] Yes
-- [ ] No
+- (x) Yes
+- ( ) No
 
 > Right!
 > This is not correct.  The comment above is exactly what a function comment should look like.  It describes the purpose of the function, the preconditions (what we assume is true about the world before the function is called), and the postconditions (what the world will be like after the function is called) 
