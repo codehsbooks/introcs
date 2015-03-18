@@ -61,6 +61,7 @@ Is this start function declared correctly?
 > Yes.  All commands go inside of the start function
 > Not quite.  This is declared correctly since all of the commands are inside of the start function.
 
+
 <p>
        function start() {           </br>
                                        </br>
@@ -75,6 +76,7 @@ Is this start function declared correctly?
 
 > Correct!
 
+
 <p>
 function start() { </br>
         start();        </br>           
@@ -88,6 +90,7 @@ Is this start function declared correctly?
 > No!  Do not call the start function!  It gets called automatically.
 
 > Correct!
+
 
 <p>
     function start() { </br>
@@ -104,6 +107,7 @@ Is this start function declared correctly?
 > No! Do not define functions inside of the start function.
 
 > Correct!
+
 
 <p>
     function start() { </br>
