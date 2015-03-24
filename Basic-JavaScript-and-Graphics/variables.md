@@ -129,17 +129,22 @@ For each of the variables below, pick what type of variable it is.
 | ```var typeOfApple = "Fuji";```   | ( )       | ( )       | ( )       | (x) |
 | ```var unitPrice = 5.0;```        | ( )       | (x)       | ( )       | ( ) |
 | ```var age = "5";```              | ( )       | ( )       | ( )       | (x) |
-
-> Beware!  If you put the value in quotes, it becomes a string!
-
 | ```var boughtApples = true;```    | ( )       | ( )       | (x)       | ( ) |
 | ```var numInBushel = 250;```      | (x)       | ( )       | ( )       | ( ) |
 | ```var needBushel = false;``      | ( )       | ( )       | (x)       | ( ) |
 | ```var wantBushel = "true";```    | ( )       | ( )       | ( )       | (x) |
-
-> Beware!  If you put the value in quotes, it becomes a string!
-
 | ```var numOfBushels = 10.3;```    | ( )       | (x)       | ( )       | ( ) |
+
+>
+>
+>
+>
+> Beware!  If you put the value in quotes, it becomes a string!
+>
+>
+>
+> Beware!  If you put the value in quotes, it becomes a string!
+>
 
 ---
 
