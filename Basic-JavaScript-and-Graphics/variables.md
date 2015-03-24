@@ -22,8 +22,9 @@ You declare a variable by using the keyword ```var```.  For example, let's make 
 var numNails;
 ```
 
-Now we have an empty storage place where can store the number of nails. 
-![Declared Variable](../static/javascript_emptyVariable.PNG)
+Now we have an empty storage place where can store the number of nails.
+
+![Declared Variable](../static/javaScript/javascript_emptyVariable.png)
 
 This is like having an empty sheet of paper. This variable does not have a value yet.  We call this "uninitialized".  The variable ```numNails``` merely has a name.
 
@@ -35,7 +36,7 @@ var numNails = 53;
 
 Now we have a variable named ```numNails``` with the value 53.  We have essentially put a 53 in the box named ```numNails```.
 
-![Initialized Variable](../static/javascript_fullVariable.PNG)
+![Initialized Variable](../static/javaScript/javascript_fullVariable.png)
 
 Let's do a quick recap.  Declaring a variable means creating and naming an empty box to put things in later.  Initializing a variable means creating, naming, and filling a box.
 
@@ -48,7 +49,7 @@ numNails = 75;
 
 Now our box has a 75 in it.
 
-![Assigned Variable](../static/javascript_assignedVariable.PNG)
+![Assigned Variable](../static/javaScript/javascript_assignedVariable.png)
 
 
 When we want to check the value that is currently in the variable, we just use its name.  For example, suppose we want to print out the number of nails we need.  Our program could look like
