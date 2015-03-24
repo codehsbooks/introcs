@@ -120,9 +120,7 @@ Let's test  your understanding of variables and their values.  Answer all of the
 
 ---
 
-<p>
 For each of the variables below, pick what type of variable it is.
-</p>
 
 | Variable                          | Integer   | Float     | Boolean   | String |
 | --                                | --        | --        | --        | -- |
