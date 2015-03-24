@@ -32,6 +32,7 @@ When you run this, Hello World will appear in the output box.
 There are a couple of important things to note.  First, notice we put Hello World inside quotes and put that inside of the parenthesis.  Notice that the command ends with a semicolon.  Both of these things are absolutely required in order for your program to work.
 
 ### Keywords
+In JavaScript, there are certain words that are already given a special meaning by JavaScript.  These words are special and can only be used in one way.  The word ```function``` is an example of a keyword.  As we continue through the chapter, more keywords will be introduced.
 
 ### Extensions to Your Program
 Great!  You have written your first JavaScript program! Now let's play around with it a little bit.  Try putting something else inside of the parenthesis.  For example, try putting
