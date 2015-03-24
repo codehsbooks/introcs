@@ -135,25 +135,25 @@ For each of the variables below, pick what type of variable it is.
 | ```var wantBushel = "true";```    | ( )       | ( )       | ( )       | (x) |
 | ```var numOfBushels = 10.3;```    | ( )       | (x)       | ( )       | ( ) |
 
->
+> This number doesn't have any decimals, so it's an Integer.
 
->
+> This number has a decimal, so it's a float.
 
->
+> This value is enclosed in quotes, so it's a string.
 
->
-
-> Beware!  If you put the value in quotes, it becomes a string!
-
->
-
->
-
->
+> This number has a decimal, so it's a float.
 
 > Beware!  If you put the value in quotes, it becomes a string!
 
->
+> This is a true/false value, so it's a boolean.
+
+> This number doesn't have any decimals, so it's an Integer.
+
+> This is a true/false value, so it's a boolean.
+
+> Beware!  If you put the value in quotes, it becomes a string!
+
+> This number has a decimal, so it's a float.
 
 ---
 
