@@ -136,14 +136,23 @@ For each of the variables below, pick what type of variable it is.
 | ```var numOfBushels = 10.3;```    | ( )       | (x)       | ( )       | ( ) |
 
 >
+
 >
+
 >
+
 >
+
 > Beware!  If you put the value in quotes, it becomes a string!
+
 >
+
 >
+
 >
+
 > Beware!  If you put the value in quotes, it becomes a string!
+
 >
 
 ---
