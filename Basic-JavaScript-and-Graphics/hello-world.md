@@ -31,6 +31,8 @@ When you run this, Hello World will appear in the output box.
 
 There are a couple of important things to note.  First, notice we put Hello World inside quotes and put that inside of the parenthesis.  Notice that the command ends with a semicolon.  Both of these things are absolutely required in order for your program to work.
 
+### Keywords
+
 ### Extensions to Your Program
 Great!  You have written your first JavaScript program! Now let's play around with it a little bit.  Try putting something else inside of the parenthesis.  For example, try putting
 
