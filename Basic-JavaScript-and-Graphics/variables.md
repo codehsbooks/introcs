@@ -41,7 +41,7 @@ Now we have a variable named ```numNails``` with the value 53.  We have essentia
 Let's do a quick recap.  Declaring a variable means creating and naming an empty box to put things in later.  Initializing a variable means creating, naming, and filling a box.
 
 ### Using Variables
-Variables are only mildly useful if all we can do is declare them and initialize them.  Suppose we wanted to change the value of the variable.  For example, suppose we decide that we want to get extra nails in case we bend some.  Then we want to change the value of ```numNails`` from 53 to 75.  We can do this by *assigning* the variable a new value. 
+Variables are only mildly useful if all we can do is declare them and initialize them.  Suppose we wanted to change the value of the variable.  For example, suppose we decide that we want to get extra nails in case we bend some.  Then we want to change the value of ```numNails``` from 53 to 75.  We can do this by *assigning* the variable a new value. 
 
 ```
 numNails = 75;
