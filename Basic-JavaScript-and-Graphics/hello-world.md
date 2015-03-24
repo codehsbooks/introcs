@@ -4,7 +4,7 @@ In this section, we're going to learn how to set up and run our first program in
 ### Environment Set Up
 Using CodeHS's editor, writing JavaScript is straightforward. In the picture below, the black box is where you write your code. Yours may be white.  When you want to try out your code, click the green "Run Code" button.  Any output your program creates will appear in the white box on the right. To clear any output, click the "Clear" button. 
 
-![Environment](../static/javascript_env.PNG)
+![Environment](../static/javaScript/javascript_env.PNG)
 
 Now that we know how to use the editor, let's write the first program.
 
