@@ -28,8 +28,8 @@ Now we have an empty storage place where can store the number of nails.
 
 This is like having an empty sheet of paper. This variable does not have a value yet.  We call this "uninitialized".  The variable ```numNails``` merely has a name.
 
-If we want to declare the variable and initialize it, we can write the following
-![
+If we want to declare the variable and initialize it, we can write the following:
+
 ```
 var numNails = 53;
 ```
