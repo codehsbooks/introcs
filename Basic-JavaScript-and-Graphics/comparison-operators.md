@@ -1,3 +1,3 @@
 # Comparison Operators
 
-Comparison 
+Comparison operators are used 
