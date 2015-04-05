@@ -1,6 +1,6 @@
 # Comparison Operators
 
-Comparison operators allow us to compare two values against one another.
+Comparison operators allow us to compare two values against one another. They test whether some boolean expression is true or false.
 
 ## An Example Comparison
 
