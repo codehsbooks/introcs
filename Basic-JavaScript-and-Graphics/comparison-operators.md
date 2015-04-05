@@ -66,4 +66,4 @@ println("Can ride on the roller coaster: " + isTallEnough);
 
 A common mistake is using `=` when you actually want to use `==`. `=` is used for assignment of variables whereas `==` is used for comparing the equality of two values.
 
-For example, `x = 5` stores the value `5` into the variable `x`. However, `x == 5` tests to see if the value `5` is equal to the variable `x` and then returns either true or false.
+For example, `x = 5` stores the value `5` into the variable `x`. However, `x == 5` tests to see if the value `5` is equal to the variable `x` and then returns either true or false. **They are not the same thing!**
