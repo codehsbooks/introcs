@@ -3,6 +3,6 @@
     "title": "Introduction to Computer Science",
     "description": "Learn the fundamentals of computer science and programming",
 
-    "plugins": ["exercises", "quizzes"],
+    "plugins": ["exercises", "quizzes@1.0.0"],
     "pluginsConfig": {}
 }
