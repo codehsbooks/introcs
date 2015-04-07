@@ -42,3 +42,34 @@ var sixThirty = true;
 var schoolDay = false;
 println(sixThirty && schoolDay);  // both values are not true, so it prints "false"
 ```
+
+For variables `p` and `q` that can be `true` or `false`:
+
+| p     | q     |   | p AND q |
+|-------|-------|---|--------|
+| true  | true  |   | true   |
+| true  | false |   | false  |
+| false | true  |   | false  |
+| false | false |   | false  |
+
+
+## The OR Operator
+
+OR is represented in JavaScript as `||`. An expression using OR is true when all or any of its parts are true. It is only false when all of the boolean values are false.
+
+Say that you are trying to decide whether to wear a coat today. You'll wear your coat if it is raining right now or if it is cold outside. You can evaluate this expression based on the answers to those two boolean values. If it's raining, cold, or raining and cold, then you will wear your coat. The only case in which you would not wear your coat is if it's neither raining nor cold.
+
+```
+var isRaining = true;
+var isCold = false;
+println(isRaining && isCold);  // it's not cold, but it is raining, so it prints true
+```
+
+For variables `p` and `q` that can be `true` or `false`:
+
+| p     | q     |   | p OR q |
+|-------|-------|---|--------|
+| true  | true  |   | true   |
+| true  | false |   | true   |
+| false | true  |   | true   |
+| false | false |   | false  |
