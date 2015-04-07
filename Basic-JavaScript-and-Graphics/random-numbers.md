@@ -9,7 +9,7 @@ CodeHS makes it easy to generate random numbers with its built-in Randomizer met
 ```
 var randomNumber = Randomizer.nextInt(1, 4);
 ```
-The variable, `randomNumber`, now holds some random value between 1 and 4. This is *inclusive*. There are four possible random numbers - 1, 2, 3, or 4.
+The variable, `randomNumber`, now holds some random value between 1 and 4. This is *inclusive*. There are four possible random numbers: 1, 2, 3, or 4.
 
 ## Rolling Dice
 
