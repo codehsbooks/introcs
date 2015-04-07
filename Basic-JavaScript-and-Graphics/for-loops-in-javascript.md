@@ -36,7 +36,7 @@ The third part of a for loop changes the variable after each time the loop runs.
 
 What happens when we run the example for loop? What gets printed to the screen. 
 
-First, our loop variable `i` is initially set to `0`. Next, the condition part of the loop is evaluated. Is `i < 3`? Since `i` is currently set to `0`, and `0` is indeed less than `3`, the condition `i < 3` is *true*. Thus, the code within the for loop is executed. `0` is printed to the screen. After this, `i` is incremented. `i++` means we add 1 to `i`, so `i` is now set to `1`.
+First, our loop variable `i` is initially set to `0`. Next, the condition part of the loop is evaluated. Is ``i < 3``? Since `i` is currently set to `0`, and `0` is indeed less than `3`, the condition `i < 3` is *true*. Thus, the code within the for loop is executed. `0` is printed to the screen. After this, `i` is incremented. `i++` means we add 1 to `i`, so `i` is now set to `1`.
 
 Since `i` is now set to `1`, the condition `i < 3` is re-evaluated. It is still *true*. `1` is now printed to the screen. `i` is incremented again and becomes set to `2`.
 
