@@ -21,7 +21,7 @@
     * [Variables](Basic-JavaScript-and-Graphics/variables.md)
     * [User Input](Basic-JavaScript-and-Graphics/user-input.md)
     * [Basic Math in JavaScript](Basic-JavaScript-and-Graphics/basic-math-in-javascript.md)
-    * [Using Graphics in JavaScript](Basic-JavaScript-and-Graphics/basic-graphics-in-javascript.md)
+    * [Using Graphics in JavaScript](Basic-JavaScript-and-Graphics/using-graphics-in-javascript.md)
     * [Booleans](Basic-JavaScript-and-Graphics/booleans.md)
     * [Logical Operators](Basic-JavaScript-and-Graphics/logical-operators.md)
     * [Comparison Operators](Basic-JavaScript-and-Graphics/comparison-operators.md)
