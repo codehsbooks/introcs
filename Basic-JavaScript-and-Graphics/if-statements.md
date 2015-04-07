@@ -12,7 +12,7 @@ if (boolean expression) {
 
 If the boolean expression evaluates to false, nothing will happen. The code within the if statement is ignored. 
 
-# If/Else Statements
+## If/Else Statements
 
 We can add the **else** keyword to our if statements.
 In this case, if the boolean expression in our if statement evaluates to false, the code within the **else** segment will run. If the boolean expression evaluates to true, the code within the if segment will run.
