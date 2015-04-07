@@ -54,7 +54,7 @@ println("z = " + z);
 ```
 
 
-When we run this code, what boolean values (**true** or **false**) will get printed to the screen for variables t - z? See if you can figure it out on your own. The solution is given below.
+When we run this code, what boolean values (**true** or **false**) will get printed to the screen for variables t through z? See if you can figure it out on your own. The solution is given below.
 
 ####Solution:
 ```
