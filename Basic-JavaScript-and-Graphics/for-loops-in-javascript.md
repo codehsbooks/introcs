@@ -52,7 +52,7 @@ Thus, our output would be:
 2
 ```
 
-# More Examples
+## More Examples
 
 ### Countdown
 
