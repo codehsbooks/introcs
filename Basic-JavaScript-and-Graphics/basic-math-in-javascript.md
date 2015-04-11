@@ -79,3 +79,24 @@ x /= y; //is equal to x = x / y;
 
 ###Example: Dollars to Pounds
 Let's say that we want to write a program that will convert US dollars to British pounds. We will prompt the user for the amount of dollars. Then, we will multiply the conversion rate of dollars to pounds by the amount of dollars that the user specified. Lastly, we will print that value off.
+
+Since we want the conversion rate to stay the same, we will create a variable at the top of our program that is in all capital letters and uses underscores between words. This is called a constant. We can use this constant anywhere in our program, but will not want to change its value.  
+
+```
+// This constant represents our currency
+// conversion rate
+var DOLLARS_TO_POUNDS = 0.6462;
+
+// This program will convert dollars to pounds
+function start(){
+	println("This program converts USD to GBP.");
+	var dollars = readFloat("USD: ");
+	
+	// This is how we can convert from dollars
+	// to pounds
+	var pounds = dollars * DOLLARS_TO_POUNDS;
+	
+	println("GBP: " + pounds);
+}```
+
+###Example: 
