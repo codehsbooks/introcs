@@ -79,3 +79,56 @@ x /= y; //is equal to x = x / y;
 
 ###Example: Dollars to Pounds
 Let's say that we want to write a program that will convert US dollars to British pounds. We will prompt the user for the amount of dollars. Then, we will multiply the conversion rate of dollars to pounds by the amount of dollars that the user specified. Lastly, we will print that value off.
+
+Since we want the conversion rate to stay the same, we will create a variable at the top of our program that is in all capital letters and uses underscores between words. This is called a constant. We can use this constant anywhere in our program, but will not want to change its value.  
+
+```
+// This constant represents our currency
+// conversion rate
+var DOLLARS_TO_POUNDS = 0.6462;
+
+// This program will convert dollars to pounds
+function start(){
+	println("This program converts USD to GBP.");
+	var dollars = readFloat("USD: ");
+	
+	// This is how we can convert from dollars
+	// to pounds
+	var pounds = dollars * DOLLARS_TO_POUNDS;
+	
+	println("GBP: " + pounds);
+}```
+
+###Example: Dividing Up Groups
+This example is a little trickier: We want to divide a large number of people into groups and show how many total people, how many people per group, how many groups, and how many people left over. 
+
+This program uses a couple of key concepts:
+* 
+```Math.floor(num1/num2)``` will round the result of num1 divided by num2 to an integer. (We don't want half people!)
+* 
+The modulus (%) operator will help us find the remainder of two values.
+
+```
+/* This program helps us divide a large number
+ * of people into groups. We tell it how many
+ * total people there are, and how many people
+ * there are per group, and we figure out
+ * how many groups there are, and how many
+ * are left over. */
+function start(){
+	var people = readInt("Num people: ");
+	var peoplePerGroup = readInt("People per group: ");
+	
+	// We must use Math.floor to make sure the result
+	// is an integer
+	var groups = Math.floor(people / peoplePerGroup);
+	
+	// The % operator helps us find the remainder
+	var peopleLeft = people % peoplePerGroup;
+	
+	println("There are " + groups + " groups " + 
+		"with " + peopleLeft + " left over.");
+}
+```
+
+And that's it! Basic math in programming is both easy and fun.
