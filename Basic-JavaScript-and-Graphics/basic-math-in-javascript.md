@@ -99,4 +99,36 @@ function start(){
 	println("GBP: " + pounds);
 }```
 
-###Example: 
+###Example: Dividing Up Groups
+This example is a little trickier: We want to divide a large number of people into groups and show how many total people, how many people per group, how many groups, and how many people left over. 
+
+This program uses a couple of key concepts:
+* 
+```Math.floor(num1/num2)``` will round the result of num1 divided by num2 to an integer. (We don't want half people!)
+* 
+The modulus (%) operator will help us find the remainder of two values.
+
+```
+/* This program helps us divide a large number
+ * of people into groups. We tell it how many
+ * total people there are, and how many people
+ * there are per group, and we figure out
+ * how many groups there are, and how many
+ * are left over. */
+function start(){
+	var people = readInt("Num people: ");
+	var peoplePerGroup = readInt("People per group: ");
+	
+	// We must use Math.floor to make sure the result
+	// is an integer
+	var groups = Math.floor(people / peoplePerGroup);
+	
+	// The % operator helps us find the remainder
+	var peopleLeft = people % peoplePerGroup;
+	
+	println("There are " + groups + " groups " + 
+		"with " + peopleLeft + " left over.");
+}
+```
+
+And that's it! Basic math in programming is both easy and fun.
