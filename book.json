@@ -2,7 +2,9 @@
     "gitbook": ">=2.0.0",
     "title": "Introduction to Computer Science",
     "description": "Learn the fundamentals of computer science and programming",
-
-    "plugins": ["exercises", "quizzes"],
+    "plugins": [
+        "exercises",
+        "quizzes"
+    ],
     "pluginsConfig": {}
 }
