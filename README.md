@@ -12,8 +12,6 @@ Introduction to computer science.
 
 - Basic Data Structures
 
-- Game Design: Helicopter
-
 
 ### Contributors
 We'd like to thank all those who have helped write this book:
