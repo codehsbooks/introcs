@@ -48,7 +48,8 @@ function start(){
 	println("Age is: " + age);
 }
 ```
-The browser will show us:
+The browser will show us: 
+
 ![](Screen Shot 2015-04-11 at 1.41.50 PM.png)
 
 ![](Screen Shot 2015-04-11 at 1.42.06 PM.png)
