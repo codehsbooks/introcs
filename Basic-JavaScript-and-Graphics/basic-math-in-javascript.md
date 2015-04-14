@@ -65,7 +65,7 @@ This will add one to ```counter``` just like the previous code.
 Similarly, if we want to subtract one, we can add ```--``` like: 
 ```
 //Shortcut, subtract one
-counter++;
+counter--;
 ```
 There are also other shortcuts available if you want to modify the current value by using arithmetic operations. 
 
