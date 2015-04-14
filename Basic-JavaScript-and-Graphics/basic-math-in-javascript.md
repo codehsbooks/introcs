@@ -23,7 +23,7 @@ Second: 3
 ###Arithmetic operators in Javascript
 There are five arithmetic operators that we can use with Javascript, most that you have likely used before. 
 
-![](Screen Shot 2015-04-11 at 2.33.22 PM.png)
+![CodeHS](../static/javaScript/javascript_basicmath_operators.png "CodeHS")
 
 Here are some basic examples:
 ```
@@ -43,7 +43,7 @@ What is 17 % 5?
 
 If we say, "What is 17 divided by 5?" The answer is 3 with 2 left over. Check out the long form of division:
 
-![](Screen Shot 2015-04-11 at 2.40.43 PM.png)
+![CodeHS](../static/javaScript/javascript_basicmath_example.png "CodeHS")
 
 The answer to 17 % 5 is 2.
 
