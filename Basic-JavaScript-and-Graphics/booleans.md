@@ -7,7 +7,7 @@ A boolean refers to a value that is true or false. Those are the only values of 
 ###Meet George Boole
 Let's meet the fellow behind the name, "booleans," George Boole. Mr. Boole was an English-born mathematician, philosopher, and logician. He introduced boolean algebra in *The Mathematical Analysis of Logic* (1847) and *Investigation of the Laws of Thought* (1854). Many consider him to be one of the founders of Computer Science.
 
-![](220px-George_Boole_color.jpg)
+![CodeHS](../static/javaScript/javascript_boole.jpg "CodeHS")
 
 ###Example with booleans
 How about an example? Let's create a variable and set it equal to true. Then, we'll print the variable. 
@@ -17,7 +17,7 @@ We first want to declare the variable, ```loggedIn```, and set it to true or fal
 ```
 var loggedIn = true;
 ```
-![](Screen Shot 2015-04-11 at 2.03.49 PM.png)
+![CodeHS](../static/javaScript/javascript_boolean_loggedin.png "CodeHS")
 
 Now, we can go ahead and print it out. We can similarly set the variable to false instead:
 ```
