@@ -50,9 +50,9 @@ function start(){
 ```
 The browser will show us: 
 
-![](Screen Shot 2015-04-11 at 1.41.50 PM.png)
+![CodeHS](../static/javaScript/javascript_userinput_name.png "CodeHS")
 
-![](Screen Shot 2015-04-11 at 1.42.06 PM.png)
+![CodeHS](../static/javaScript/javascript_userinput_age.png "CodeHS")
 
 The output will look like:
 ```
