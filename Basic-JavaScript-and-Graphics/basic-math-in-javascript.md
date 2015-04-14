@@ -29,10 +29,10 @@ Here are some basic examples:
 ```
 var x = 4; 
 var y = 8;
-println(x + y); //12
-println(y - x); //4
-println(x * y); //32
-println(y / x); //2
+println(x + y); // 12
+println(y - x); // 4
+println(x * y); // 32
+println(y / x); // 2
 ```
 The basic rules of arithmetic apply here. 
 
@@ -52,28 +52,28 @@ It is very common in programming to want to add one (increment) or subtract one 
 
 Previously, if we wanted to add one to the current value of a variable, ```counter```, it would look like: 
 ```
-//Add one to the counter
+// Add one to the counter
 counter = counter + 1;
 ```
 A faster way to do the same logic is to add ```++``` to a variable, like: 
 ```
-//Shortcut, add one
+// Shortcut, add one
 counter++;
 ```
 This will add one to ```counter``` just like the previous code. 
 
 Similarly, if we want to subtract one, we can add ```--``` like: 
 ```
-//Shortcut, subtract one
+// Shortcut, subtract one
 counter--;
 ```
 There are also other shortcuts available if you want to modify the current value by using arithmetic operations. 
 
 ```
-x += y; //is equal to x = x + y;
-x-= y; //is equal to x = x - y;
-x*= y; //is equal to x = x * y;
-x /= y; //is equal to x = x / y;
+x += y; // is equal to x = x + y;
+x -= y; // is equal to x = x - y;
+x *= y; // is equal to x = x * y;
+x /= y; // is equal to x = x / y;
 
 ```
 
@@ -97,7 +97,8 @@ function start(){
 	var pounds = dollars * DOLLARS_TO_POUNDS;
 	
 	println("GBP: " + pounds);
-}```
+}
+```
 
 ###Example: Dividing Up Groups
 This example is a little trickier: We want to divide a large number of people into groups and show how many total people, how many people per group, how many groups, and how many people left over. 
