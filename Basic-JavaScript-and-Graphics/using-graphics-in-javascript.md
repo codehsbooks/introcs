@@ -17,3 +17,23 @@ There are a few important properties of the canvas that we might like to get, su
 ![](Screen Shot 2015-04-15 at 3.47.02 PM.png)
 ![](Screen Shot 2015-04-15 at 3.47.09 PM.png)
 
+###Graphics "Hello World"
+Our first program will create some text and throw it into the canvas as text. It should look like:
+
+![](helloworldcanvas.png)
+
+We want to first create new Text that says "Hello World." Then, we will want to set its position to be at a specific location or using properties of the canvas. Lastly, we will want to add this text to the canvas (and to the screen). 
+
+The code looks like: 
+
+```
+function start() {
+    var text = new Text("Hello World");
+    text.setPosition(100, 100);
+    add(text);
+```
+
+###Let's make a circle!
+Next, let's make a circle appear on the canvas! Here's what it will look like:
+
+![](bluecircle1.png)
