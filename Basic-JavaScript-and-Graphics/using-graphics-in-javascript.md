@@ -77,3 +77,44 @@ var rect = new Rectangle(100, 50);
 Then, we will set the location of the rectangle to be 60 pixels to the right, 150 pixels down. 
 
 ![](Screen Shot 2015-04-15 at 3.48.20 PM.png)
+
+Lastly, we'll finish by setting its color to red and adding it to the canvas. 
+
+###Example: 8 Ball
+Here's one more complex example: We will draw an 8 ball on the canvas. We first will create a new ball with a radius of 100. Then, we will find the middle of the canvas by using ```getWidth()``` and ```getHeight()``` and dividing those properties by 2. After, we will set the ball's position to be in the middle of the canvas and add it to the canvas. For the text, we will create new text, set its font and color, then subtract half of the text's width from the center width of the canvas and add half of the text's width to the center height of the canvas. 
+```
+// This program will draw an 8 ball 
+// centered on the screen. The circle
+// should be black with radius 100, and
+// the "8" should be white in 50pt Arial
+// font.
+function start(){
+	var ball = new Circle(100);
+	var centerX = getWidth() / 2;
+	var centerY = getHeight() / 2;
+	ball.setPosition(centerX, centerY);
+	add(ball);
+	
+	var number = new Text("8");
+	number.setFont("50pt Arial");
+	number.setColor(Color.white);
+	number.setPosition(centerX - number.getWidth()/2, centerY + number.getWidth()/2);
+	add(number);
+}
+```
+###Reference
+####Circle
+How to make a circle:
+```var circle = new Circle(radius);```
+Set position (of center of circle):
+```circle.setPosition(xPos, yPos);```
+Add to screen:
+```add(circle);```
+####Text
+How to make text:
+```var text = new Text(label);```
+Set position (of bottom left corner):
+```text.setPosition(xPos, yPos);```
+Add to screen:
+```add(text);```
+
