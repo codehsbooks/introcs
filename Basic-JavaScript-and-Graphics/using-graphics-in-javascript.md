@@ -105,16 +105,41 @@ function start(){
 ###Reference
 ####Circle
 How to make a circle:
-```var circle = new Circle(radius);```
+```
+var circle = new Circle(radius);
+```
 Set position (of center of circle):
-```circle.setPosition(xPos, yPos);```
+```
+circle.setPosition(xPos, yPos);
+```
 Add to screen:
-```add(circle);```
+```
+add(circle);
+```
+####Rectangles
+How to make rectangle:
+```
+var rect = new Rectangle(width, height);
+```
+Set position (of top left corner):
+```
+rect.setPosition(xPos, yPos);
+```
+Add to screen:
+```
+add(rect);
+```
 ####Text
 How to make text:
-```var text = new Text(label);```
+```
+var text = new Text(label);
+```
 Set position (of bottom left corner):
-```text.setPosition(xPos, yPos);```
+```
+text.setPosition(xPos, yPos);
+```
 Add to screen:
-```add(text);```
+```
+add(text);
+```
 
