@@ -50,6 +50,30 @@ function start() {
     add(circle);
 }
 ```
-We create the circle with a radius of 30, then give that circle directions to be set in a certain location and given a certain color, then the canvas adds that circle. Note that the position of a circle is taken from the middle of the circle. 
+We create the circle with a radius of 30, then give that circle some directions to be set in a certain location and given a certain color, then the canvas adds that circle. Note that the position of a circle is taken from the middle of the circle in the canvas. 
 
 ![](bluecircle3.png)
+
+###Introducing Rectangles
+Let's make a rectangle on the canvas. It will look like: 
+
+![](Screen Shot 2015-04-15 at 3.48.05 PM.png)
+
+We will first create a rectangle and give it a height and width. Then, we will set its position to be (60, 150). After that, we'll set the color to be red. Lastly, we'll add the rectangle to the canvas. 
+
+```
+function start() {
+    var rect = new Rectangle(100, 50);
+    rect.setPosition(60, 150);
+    rect.setColor(Color.red);
+    add(rect);
+```
+Let's break this code down further. When creating a rectangle, we need to specify the height and width in pixels, like this:
+```
+var rect = new Rectangle(100, 50);
+```
+![](Screen Shot 2015-04-15 at 3.48.13 PM.png)
+
+Then, we will set the location of the rectangle to be 60 pixels to the right, 150 pixels down. 
+
+![](Screen Shot 2015-04-15 at 3.48.20 PM.png)
