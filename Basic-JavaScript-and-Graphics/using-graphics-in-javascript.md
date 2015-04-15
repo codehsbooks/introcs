@@ -31,9 +31,25 @@ function start() {
     var text = new Text("Hello World");
     text.setPosition(100, 100);
     add(text);
+}
 ```
 
 ###Let's make a circle!
 Next, let's make a circle appear on the canvas! Here's what it will look like:
 
 ![](bluecircle1.png)
+
+We want to create a blue circle with the radius of 30 at location (100, 50). First, we will create a circle and give it a radius of 30. Then, we will set the position of the circle at (100, 50). After that, we will want to set the color of the circle to be blue. Lastly, we will add the circle to the canvas for it to appear on the screen. 
+
+The code will look like:
+```
+function start() {
+    var circle = new Circle(30);
+    circle.setPosition(100, 50);
+    circle.setColor(Color.blue);
+    add(circle);
+}
+```
+We create the circle with a radius of 30, then give that circle directions to be set in a certain location and given a certain color, then the canvas adds that circle. Note that the position of a circle is taken from the middle of the circle. 
+
+![](bluecircle3.png)
