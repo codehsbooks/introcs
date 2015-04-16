@@ -33,7 +33,7 @@ For a variable `p` that can be `true` or `false`:
 
 ## The AND Operator
 
-AND is represent in JavaScript as `&&`. An expression using AND is true only when all its component parts are true. If any of the boolean values are false, the whole expression evaluates to false.
+AND is represent in JavaScript as: &&. An expression using AND is true only when all its component parts are true. If any of the boolean values are false, the whole expression evaluates to false.
 
 For example, if it is 6:30am AND it is a school day, you should wake up. You can test the expression of "6:30am AND a school day." If both are true, then the whole expression evaluates to true. If either or both are false, then the whole expression is false, and you should stay in bed.
 
