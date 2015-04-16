@@ -30,28 +30,30 @@ Let's get a little more practice. Take a look at the following code segment belo
 
 ---
 ```
-    var a = 3;
-    var b = 5;
-    var c = 2;
-    var d = 3;
+var a = 3;
+var b = 5;
+var c = 2;
+var d = 3;
 
-    var t = a > 0;
-    var u = a == d;
-    var v = d >= b;
-    var w = b > c;
-    var x = a != d;
-    var y = d <= a;
-    var z = 4 <= c;
+var t = a > 0;
+var u = a == d;
+var v = d >= b;
+var w = b > c;
+var x = a != d;
+var y = d <= a;
+var z = 4 <= c;
 
-    println("t = " + t);
-    println("u = " + u);
-    println("v = " + v);
-    println("w = " + w);
-    println("x = " + x);
-    println("y = " + y);
-    println("z = " + z);
+println("t = " + t);
+println("u = " + u);
+println("v = " + v);
+println("w = " + w);
+println("x = " + x);
+println("y = " + y);
+println("z = " + z);
 
 ```
+.
+
 ---
 
 When we run this code, what boolean values (**true** or **false**) will get printed to the screen for variables t through z? See if you can figure it out on your own. The solution is given below.
