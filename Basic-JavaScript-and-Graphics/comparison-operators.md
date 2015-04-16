@@ -22,7 +22,7 @@ var y = 8;
 var z = x > y;
 println(z);
 ```
-What will get printed to the screen? The above comparison, `x > y`, is evaluating if 10 is greater than 8. Because 10 is indeed greater than 8, `z` is assigned a value of true. Thus, `true` will get printed to the screen.
+What will get printed to the screen? The above comparison, x > y, is evaluating if 10 is greater than 8. Because 10 is indeed greater than 8, `z` is assigned a value of true. Thus, `true` will get printed to the screen.
 
 ## More Practice
 
@@ -51,6 +51,7 @@ println("w = " + w);
 println("x = " + x);
 println("y = " + y);
 println("z = " + z);
+
 ```
 
 
