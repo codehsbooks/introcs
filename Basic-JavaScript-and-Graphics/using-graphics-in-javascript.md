@@ -3,6 +3,7 @@ Add some color and creativity to your code by using graphics in Javascript!
 
 ###The artist's canvas
 Just like painters creating a masterpiece, we will be using a canvas when creating graphics. The canvas will start off blank and looks like this: 
+
 ![](Screen Shot 2015-04-15 at 3.41.08 PM.png)
 
 ###The coordinate system    
