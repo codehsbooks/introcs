@@ -32,22 +32,28 @@ Let's look at a bit of code to clear things up.  In the function ```averageNumbe
 
 
 ```
- // Local variables are total and result
- // total and result are out of scope
+ // variables are out of scope here
  function averageNumbers(x,y,z){
- // total and result are in scope
+ // variables are in scope
     var total = x + y + z;
     var result = total/3.0;
     return result;
  }
- // total and result are out of scope
- function computeTax(total, taxRate){
-    var taxCharged = total * taxRate;
-    var result = total + taxCharged;
-    return result;
+ // variables  are out of scope
  }
- 
  ```
+Here is an example of scoping rules with loops.
+
+```
+function main(){
+
+    for(var i  = 0; i < 10; i++){
+        println(i);
+    }
+}
+
+```
+
 ###Why do I need to worry about Scope?
 
 ### Test Your Understanding
