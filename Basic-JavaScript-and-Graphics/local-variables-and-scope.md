@@ -8,8 +8,14 @@
  ```
  function averageNumbers(x,y,z){
     var total = x + y + z;
-    var average = total/3.0;
-    return average;
+    var result = total/3.0;
+    return result;
+ }
+ 
+ function computeTax(total, taxRate){
+    var taxCharged = total * taxRate;
+    var result = total + taxCharged;
+    return result;
  }
  
  ```
