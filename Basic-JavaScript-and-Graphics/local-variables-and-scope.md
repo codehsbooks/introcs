@@ -22,10 +22,11 @@
  var notALocal;
  ```
  
+ For the more curious reader, the variable ```notALocal``` is a global variable.   That means it lives in all of the functions.  However, you only use global variables for special purposes, as we'll see in later sections.
  
 
 ###What is Scope?
-    
+Now that we know what local variable
 ```
  // Local variables are total and result
  function averageNumbers(x,y,z){
