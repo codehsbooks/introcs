@@ -26,7 +26,7 @@
  
 
 ###What is Scope?
-Now that we know what local variables are, we can define "scope".  A variable's scope is the function or loop where a variable exists.  The scope is defined by the block of code where 
+Now that we know what local variables are, we can define "scope".  A variable's scope is the function or loop where a variable exists.  The scope is defined by the block of code where a variable has been defined and has a valid value.  Let's look at a bit of code to clear things up.  In the function ```averageNumbers()``` below,  there are two local variables and three function argument variables.
 
 
 ```
