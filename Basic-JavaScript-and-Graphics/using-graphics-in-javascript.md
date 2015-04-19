@@ -16,12 +16,13 @@ The dot is 200 pixels to the right in the positive x direction, and is at 0 pixe
 There are a few important properties of the canvas that we might like to get, such as the width and height of the canvas. We can use ```getWidth()``` and ```getHeight()``` to retrieve those values.
 
 ![CodeHS](../static/javaScript/javascript_graphics_getWidth.png "CodeHS")
+
 ![CodeHS](../static/javaScript/javascript_graphics_getHeight.png "CodeHS")
 
 ###Graphics "Hello World"
 Our first program will create some text and throw it into the canvas as text. It should look like:
 
-![](helloworldcanvas.png)
+![CodeHS](../static/javaScript/javascript_graphics_helloworld.png "CodeHS")
 
 We want to first create new Text that says "Hello World." Then, we will want to set its position to be at a specific location or using properties of the canvas. Lastly, we will want to add this text to the canvas (and to the screen). 
 
@@ -38,7 +39,7 @@ function start() {
 ###Let's make a circle!
 Next, let's make a circle appear on the canvas! Here's what it will look like:
 
-![](bluecircle1.png)
+![CodeHS](../static/javaScript/javascript_graphics_bluecircle.png "CodeHS")
 
 We want to create a blue circle with the radius of 30 at location (100, 50). First, we will create a circle and give it a radius of 30. Then, we will set the position of the circle at (100, 50). After that, we will want to set the color of the circle to be blue. Lastly, we will add the circle to the canvas for it to appear on the screen. 
 
@@ -53,12 +54,12 @@ function start() {
 ```
 We create the circle with a radius of 30, then give that circle some directions to be set in a certain location and given a certain color, then the canvas adds that circle. Note that the position of a circle is taken from the middle of the circle in the canvas. 
 
-![](bluecircle3.png)
+![CodeHS](../static/javaScript/javascript_graphics_bluecircle_position.png "CodeHS")
 
 ###Introducing Rectangles
 Let's make a rectangle on the canvas. It will look like: 
 
-![](Screen Shot 2015-04-15 at 3.48.05 PM.png)
+![CodeHS](../static/javaScript/javascript_graphics_rect.png "CodeHS")
 
 We will first create a rectangle and give it a height and width. Then, we will set its position to be (60, 150). After that, we'll set the color to be red. Lastly, we'll add the rectangle to the canvas. 
 
@@ -73,11 +74,11 @@ Let's break this code down further. When creating a rectangle, we need to specif
 ```
 var rect = new Rectangle(100, 50);
 ```
-![](Screen Shot 2015-04-15 at 3.48.13 PM.png)
+![CodeHS](../static/javaScript/javascript_graphics_rect_dimensions.png "CodeHS")
 
 Then, we will set the location of the rectangle to be 60 pixels to the right, 150 pixels down. 
 
-![](Screen Shot 2015-04-15 at 3.48.20 PM.png)
+![CodeHS](../static/javaScript/javascript_graphics_rect_position.png "CodeHS")
 
 Lastly, we'll finish by setting its color to red and adding it to the canvas. 
 
