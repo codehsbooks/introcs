@@ -26,17 +26,19 @@
  
 
 ###What is Scope?
-Now that we know what local variables are, we can define "scope".  A variable's scope is the function or loop where a variable exists.  The scope is defined by the block of code where a variable has been defined and has a valid value.  Let's look at a bit of code to clear things up.  In the function ```averageNumbers()``` below,  there are 2 local variables and 3 function argument variables.  The local variables 
+Now that we know what local variables are, we can define "scope".  A variable's scope is the function or loop where a variable exists.  The scope is defined by the block of code where a variable has been defined and has a valid value.  Let's look at a bit of code to clear things up.  In the function ```averageNumbers()``` below,  there are 2 local variables and 3 function argument variables.  The local variables are ```total``` and ```result```.  The function arguments are ```x```, ```y```, and ```z```.  The scope of the local variables is the function ```averageNumbers```.  
 
 
 ```
  // Local variables are total and result
+ // total and result are out of scope
  function averageNumbers(x,y,z){
+ // total and result are in scope
     var total = x + y + z;
     var result = total/3.0;
     return result;
  }
- 
+ // total and result are out of scope
  function computeTax(total, taxRate){
     var taxCharged = total * taxRate;
     var result = total + taxCharged;
