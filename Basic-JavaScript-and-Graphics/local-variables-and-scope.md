@@ -54,8 +54,9 @@ function main(){
     
     // variable i is out of scope
 }
-
 ```
+
+To summarize, scope tells us where we can use a particular variable.  Scopes are usually functions or loop bodies.  
 
 ###Why do I need to worry about Scope?
 
