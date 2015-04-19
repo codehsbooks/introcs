@@ -26,7 +26,9 @@
  
 
 ###What is Scope?
-Now that we know what local variable
+Now that we know what local variables are, we can define "scope".  A variable's scope is the function or loop where a variable exists.  The scope is defined by the block of code where 
+
+
 ```
  // Local variables are total and result
  function averageNumbers(x,y,z){
