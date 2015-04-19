@@ -46,10 +46,13 @@ Here is an example of scoping rules with loops.
 
 ```
 function main(){
-
+    // variable i is out of scope
     for(var i  = 0; i < 10; i++){
+        // variable i is in scope
         println(i);
     }
+    
+    // variable i is out of scope
 }
 
 ```
