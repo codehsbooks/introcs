@@ -45,7 +45,7 @@ Let's look at a bit of code to clear things up.  In the function ```averageNumbe
 Here is an example of scoping rules with loops.
 
 ```
-function main(){
+function start(){
     // variable i is out of scope
     for(var i  = 0; i < 10; i++){
         // variable i is in scope
@@ -88,7 +88,7 @@ Notice that both of these functions have a local variable named ```result```.  H
 Here's another example.
 
 ```
-function main(){
+function start(){
     var x = 3;
     var y = 2;
     var changedX = addFour(x);
