@@ -121,3 +121,5 @@ function computeSquareArea(side){
 ```
 
 In this function, there is a function parameter and a local variable named ```side```.  When this happens, the function parameter gets hidden by the local variable.  That means that the value of the function parameter is never used.  Whenever ```side``` is used in the function, the value of the local variable is used.  Thus, this function will always return 9 no matter what is passed in.
+
+In summary, local variables are variables that belong to a particular function or loop body.  The scope of a variable is which function or loop it was declared in or passed in to.
