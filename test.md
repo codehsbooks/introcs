@@ -1,8 +1,4 @@
 ## empty page for testing plugins, etc.
-
-
-
-
 quiz:
 
 ---
