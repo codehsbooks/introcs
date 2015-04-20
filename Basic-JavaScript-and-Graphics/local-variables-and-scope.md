@@ -128,7 +128,7 @@ For each question, choose the variables that are in scope at the indicated line.
 ```// This program calculates how many people
 // can fit on an elevator with a given weight
 // limit and a given size 
-function main(){ 
+function start(){ 
     var maxPounds = 800;
     var areaOfElevator = 30; // elevator has an area of 30 ft squared
     var numPeople = fillElevator(maxPounds, areaOfElevator);
