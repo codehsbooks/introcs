@@ -1,27 +1,4 @@
 ## empty page for testing plugins, etc.
-
-
----
-
-<p> For each question below, the question is embedded inside of the code.  The code is the same for all of the questions.  Choose all of the answers that apply.</p>
-<p> Simpler Texts</p>
-- [x] maxPounds
-- [ ] people
-- [x] areaOfElevator
-- [x] numPeople
-
-> Right! All variables with the start() function as their scope are in scope here.
-
-> This is not correct.  The variable ```people``` is in scope in the function ```fillElevator```
-
-> Right! All variables with the start() function as their scope are in scope here.
-
-> Right! All variables with the start() function as their scope are in scope here.
-
----
-
-
-
 quiz:
 
 ---
