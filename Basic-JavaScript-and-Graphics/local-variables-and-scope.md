@@ -40,7 +40,7 @@ Let's look at a bit of code to clear things up.  In the function ```averageNumbe
     return result;
  }
  // variables  are out of scope
- }
+ 
  ```
 Here is an example of scoping rules with loops.
 
@@ -56,8 +56,24 @@ function main(){
 }
 ```
 
-To summarize, scope tells us where we can use a particular variable.  Scopes are usually functions or loop bodies.  
+To summarize, scope tells us where we can use a particular variable.  Scopes are usually functions or loop bodies.  A variable's scope is determined by where it is declared.  Function arguments' scope is the function they're passed in to.
 
 ###Why do I need to worry about Scope?
+Why do we even care where  a variable's scope is?  We use scope to help keep variables with the same name straight.  You cannot have two variables with the same name in the same scope.  This will either cause an error or one of the variables will be hidden by another.  
+
+For example, suppose you have an Uncle Tom and a best friend named Tom. Let's say one day you start telling a story about Tom to your other best friend Susie.  Since Susie doesn't know about your Uncle Tom, Susie immediately assumes you're telling her a story about your best friend Tom.  You could say that your best friend Tom is "in scope" when you are talking to Susie because the only Tom that is "defined" is your best friend Tom.  
+
+Likewise, when you're using variables in your code, you can only use variables that are "in scope" because the function doesn't know about the other variables in the program.
+
+Let's look at another code example.
+```
+ function computeTax(total, taxRate){
+    var taxCharged = total * taxRate;
+    var result = total + taxCharged;
+    return result;
+    }
+
+
+```
 
 ### Test Your Understanding
