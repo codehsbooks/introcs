@@ -83,5 +83,24 @@ function computeTip(total, tipRate){
 }
 // computeTip scope ends
 ```
-Notice that both of these functions have a local variable named ```result```.  However, ```computeTax``` doesn't know about  the variable named ```result``` in ```computeTip```
+Notice that both of these functions have a local variable named ```result```.  However, ```computeTax``` doesn't know about  the variable named ```result``` in ```computeTip```.  Each function uses the value of it's local variable ```result```.  
+
+Here's another example.
+
+```
+function main(){
+    var x = 3;
+    var y = 2;
+    var changedX = addFour(x);
+    println(x);
+    println(changedX);
+    println(y);
+}
+
+function addFour(x){
+    var y = 4;
+    var result = x + 4;
+    return result;
+}
+```
 ### Test Your Understanding
