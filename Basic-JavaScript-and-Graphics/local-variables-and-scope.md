@@ -104,7 +104,12 @@ function addFour(x){
 }
 ```
 
-Here we've used ```x``` and ```y``` in both functions!  How does the computer know which ```x``` we're talking about?  The computer will use the ```x``` that is in scope.  This means that in ```main```, the value of ```x``` is 3 and the value of ```y``` is 2.  Even after we call ```addFour```, these variables are not changed.  In ```addFour```, the value of ```x``` is whatever gets passed in, and the value of ```y``` is 4.  Try it out and see for yourself!
+Here we've used ```x``` and ```y``` in both functions!  How does the computer know which ```x``` we're talking about?  The computer will use the ```x``` that is in scope.  This means that in ```main```, the value of ```x``` is 3 and the value of ```y``` is 2.  Even after we call ```addFour```, these variables are not changed.  In ```addFour```, the value of ```x``` is whatever gets passed in, and the value of ```y``` is 4.  Try it out and see for yourself! The output should be 
+```
+3
+7
+2
+```
 
 There is one last mistake that you can easily make.  Take a look at the code below.
 
