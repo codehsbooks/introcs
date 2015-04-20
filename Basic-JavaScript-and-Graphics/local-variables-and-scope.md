@@ -123,3 +123,120 @@ function computeSquareArea(side){
 In this function, there is a function parameter and a local variable named ```side```.  When this happens, the function parameter gets hidden by the local variable.  That means that the value of the function parameter is never used.  Whenever ```side``` is used in the function, the value of the local variable is used.  Thus, this function will always return 9 no matter what is passed in.
 
 In summary, local variables are variables that belong to a particular function or loop body.  The scope of a variable is which function or loop it was declared in or passed in to.
+
+### Test Your Understanding
+---
+
+<p> For each question below, the question is embedded inside of the code.  The code is the same for all of the questions.  Choose all of the answers that apply.</p>
+<p><pre> // This program calculates how many people
+// can fit on an elevator with a given weight
+// limit and a given size 
+function start(){ 
+    var maxPounds = 800;
+    var areaOfElevator = 30; // elevator has an area of 30 ft squared
+    var numPeople = fillElevator(maxPounds, areaOfElevator);
+    ///////////////////////////////////////////////////////////////
+    ///////// WHICH VARIABLES ARE IN SCOPE HERE? ////////////////////
+    ////////////////////////////////////////////////////////////
+    println("The elevator can fit " + numPeople + " people.");
+    }
+    // This function determines how many people can fit on an elevator
+    // Assume a person weighs 200 pounds and takes up 4 square feet of space
+function fillElevator(poundLimit, areaLimit){
+    var people = 0; // number of people so far
+    var pounds = 0; // collective weight of people
+    var space = 0; // amount of space people take up
+    while((pounds + 200) < poundLimit && (space + 4) < areaLimit){
+        people ++;
+        pounds = pounds + 200;
+        space = space + 4;
+    }
+    return people;
+} </pre>
+</p>
+- [x] maxPounds
+- [ ] people
+- [x] areaOfElevator
+- [x] numPeople
+
+> Right! All variables with the start() function as their scope are in scope here.
+
+> This is not correct.  The variable ```people``` is in scope in the function ```fillElevator```
+
+> Right! All variables with the start() function as their scope are in scope here.
+
+> Right! All variables with the start() function as their scope are in scope here.
+
+<p><pre> // This program calculates how many people
+// can fit on an elevator with a given weight
+// limit and a given size 
+function start(){ 
+    var maxPounds = 800;
+    var areaOfElevator = 30; // elevator has an area of 30 ft squared
+    var numPeople = fillElevator(maxPounds, areaOfElevator);
+    println("The elevator can fit " + numPeople + " people.");
+    }
+     ///////////////////////////////////////////////////////////////
+    ///////// WHICH VARIABLES ARE IN SCOPE HERE? ////////////////////
+    ////////////////////////////////////////////////////////////
+    // This function determines how many people can fit on an elevator
+    // Assume a person weighs 200 pounds and takes up 4 square feet of space
+function fillElevator(poundLimit, areaLimit){
+    var people = 0; // number of people so far
+    var pounds = 0; // collective weight of people
+    var space = 0; // amount of space people take up
+    while((pounds + 200) < poundLimit && (space + 4) < areaLimit){
+        people ++;
+        pounds = pounds + 200;
+        space = space + 4;
+    }
+    return people;
+} </pre>
+</p>
+- [ ] space
+- [ ] people
+- [ ] areaOfElevator
+- [ ] numPeople
+
+> This is not correct.  None of the variables are in scope here!
+
+<p><pre> // This program calculates how many people
+// can fit on an elevator with a given weight
+// limit and a given size 
+function start(){ 
+    var maxPounds = 800;
+    var areaOfElevator = 30; // elevator has an area of 30 ft squared
+    var numPeople = fillElevator(maxPounds, areaOfElevator);
+    println("The elevator can fit " + numPeople + " people.");
+    }
+    // This function determines how many people can fit on an elevator
+    // Assume a person weighs 200 pounds and takes up 4 square feet of space
+function fillElevator(poundLimit, areaLimit){
+    var people = 0; // number of people so far
+    var pounds = 0; // collective weight of people
+    var space = 0; // amount of space people take up
+    while((pounds + 200) < poundLimit && (space + 4) < areaLimit){
+        people ++;
+        pounds = pounds + 200;
+        space = space + 4;
+    }
+     ///////////////////////////////////////////////////////////////
+    ///////// WHICH VARIABLES ARE IN SCOPE HERE? ////////////////////
+    ////////////////////////////////////////////////////////////
+    return people;
+} </pre>
+</p>
+- [x] space
+- [x] people
+- [ ] areaOfElevator
+- [ ] numPeople
+
+> Correct!  All variables with the scope ```fillElevator``` are in scope here.
+
+> Correct!  All variables with the scope ```fillElevator``` are in scope here.
+
+> This is not correct.  This variables has scope ```start```.
+
+> This is not correct.  This variables has scope ```start```.
+
+---
