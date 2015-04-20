@@ -104,5 +104,17 @@ function addFour(x){
 }
 ```
 
-Here we've used ```x``` and ```y``` in both functions!  How does the computer know which ```x``` we're talking about?  The computer will use the ```x``` that is in scope.  This means that in ```main```, the value of ```x``` is 3 and the value of ```y``` is 2.  Even after we call ```addFour```, these variables are not changed.  In ```addFour```, the value of ```x``` is whatever gets passed in, and the value of ```y``` is 4.
+Here we've used ```x``` and ```y``` in both functions!  How does the computer know which ```x``` we're talking about?  The computer will use the ```x``` that is in scope.  This means that in ```main```, the value of ```x``` is 3 and the value of ```y``` is 2.  Even after we call ```addFour```, these variables are not changed.  In ```addFour```, the value of ```x``` is whatever gets passed in, and the value of ```y``` is 4.  Try it out and see for yourself!
+
+There is one last mistake that you can easily make.  Take a look at the code below.
+
+```
+function computeSquareArea(side){
+    var side = 3;
+    return side * side;
+}
+```
+
+In this function, there is a function parameter and a local variable named ```side```.  When this happens, the function parameter gets hidden by the local variable.  That means that the value of the function parameter is never used.  Whenever ```side``` is used in the function, the value of the local variable is used.  Thus, this function will always return 9 no matter what is passed in.
+
 ### Test Your Understanding
