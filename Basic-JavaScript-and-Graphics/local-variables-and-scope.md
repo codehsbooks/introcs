@@ -118,3 +118,38 @@ function computeSquareArea(side){
 In this function, there is a function parameter and a local variable named ```side```.  When this happens, the function parameter gets hidden by the local variable.  That means that the value of the function parameter is never used.  Whenever ```side``` is used in the function, the value of the local variable is used.  Thus, this function will always return 9 no matter what is passed in.
 
 ### Test Your Understanding
+
+---
+<p>
+For each question, choose the variables that are in scope at the indicated line.
+</p>
+<p>
+<pre>
+```// This program calculates how many people
+// can fit on an elevator with a given weight
+// limit and a given size 
+function main(){ 
+    var maxPounds = 800;
+    var areaOfElevator = 30; // elevator has an area of 30 ft squared
+    var numPeople = fillElevator(maxPounds, areaOfElevator);
+    println("The elevator can fit " + numPeople + " people.");
+    }
+    // This function determines how many people can fit on an elevator
+    // Assume a person weighs 200 pounds and takes up 4 square feet of space
+function fillElevator(poundLimit, areaLimit){
+    var people = 0; // number of people so far
+    var pounds = 0; // collective weight of people
+    var space = 0; // amount of space people take up
+        while(pounds < poundLimit && space < areaLimit){
+            people ++;
+            pounds = pounds + 200;
+            space = space + 4;
+    }
+    return people;
+}```
+</pre>
+</p>
+- [] w
+- [] x
+- [] y
+- [] z
