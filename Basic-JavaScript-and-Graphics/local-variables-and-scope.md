@@ -77,13 +77,13 @@ function computeTax(total, taxRate){
 
 // computeTip scope begins
 function computeTip(total, tipRate){
-    var tip = total*tipRate;
+    var tip = total * tipRate;
     var result = total + tip; 
     return result;
 }
 // computeTip scope ends
 ```
-Notice that both of these functions have a local variable named ```result```.  However, ```computeTax``` doesn't know about  the variable named ```result``` in ```computeTip```.  Each function uses the value of it's local variable ```result```.  
+Notice that both of these functions have a local variable named ```result```.  However, ```computeTax``` doesn't know about  the variable named ```result``` in ```computeTip```.  Each function uses the value of its local variable ```result```.  
 
 Here's another example.
 
