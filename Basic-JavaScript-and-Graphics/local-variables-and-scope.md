@@ -67,12 +67,17 @@ Likewise, when you're using variables in your code, you can only use variables t
 
 Let's look at another code example.
 ```
- function computeTax(total, taxRate){
+function computeTax(total, taxRate){
     var taxCharged = total * taxRate;
     var result = total + taxCharged;
     return result;
-    }
+}
 
+function computeTip(total, tipRate){
+    var tip = total*tipRate;
+    var result = total + tip;
+    return result;
+}
 
 ```
 
