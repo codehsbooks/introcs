@@ -67,19 +67,21 @@ Likewise, when you're using variables in your code, you can only use variables t
 
 Let's look at another code example.
 ```
-// scope begins
+// computeTax scope begins
 function computeTax(total, taxRate){
     var taxCharged = total * taxRate;
     var result = total + taxCharged; 
     return result;
 }
-// scope ends
+// computeTax scope ends
+
+// computeTip scope begins
 function computeTip(total, tipRate){
     var tip = total*tipRate;
     var result = total + tip; 
     return result;
 }
-
+// computeTip scope ends
 ```
 Notice that both of these functions have a local variable named ```result```.  However, ```computeTax``` doesn't know about  the variable named ```result``` in ```computeTip```
 ### Test Your Understanding
