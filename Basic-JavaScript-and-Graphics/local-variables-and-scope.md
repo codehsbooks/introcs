@@ -3,7 +3,7 @@
 
 
 ###What are Local Variables?
- You have already been using local variables! Local variables are variables that are declared using the keyword ```var```. Since we always declare variables with the keyword ```var```, why aren't all variables local variables? The thing that makes local variables *local* is that they are declared *inside* of a function or loop.  Since they are declared inside of the function, they belong only to that one function and no other functions.  It's like calling someone who was born in  particular town a local (or native) to the town.  You can think of a function as a town whose people are all of the variables that are declared inside of it.  Unlike real people, however, our variable people don't ever move from their town. The code snippet below illustrates local variables.
+ You have already been using local variables! Local variables are variables that are declared using the keyword ```var```. Since we always declare variables with the keyword ```var```, why aren't all variables local variables? The thing that makes local variables *local* is that they are declared *inside* of a function or loop.  Since they are declared inside of the function, they belong only to that one function and no other functions.  It's like calling someone who was born in  particular town a local (or native) to the town.  You can think of a function as a town whose people are all of the variables that are declared inside of it or passed into it.  Unlike real people, however, our variable people don't ever move from their town. The code snippet below illustrates local variables.
  
  ```
  // The variables x, y and townName are local variables
@@ -116,40 +116,3 @@ function computeSquareArea(side){
 ```
 
 In this function, there is a function parameter and a local variable named ```side```.  When this happens, the function parameter gets hidden by the local variable.  That means that the value of the function parameter is never used.  Whenever ```side``` is used in the function, the value of the local variable is used.  Thus, this function will always return 9 no matter what is passed in.
-
-### Test Your Understanding
-
----
-<p>
-For each question, choose the variables that are in scope at the indicated line.
-</p>
-<p>
-<pre>
-```// This program calculates how many people
-// can fit on an elevator with a given weight
-// limit and a given size 
-function start(){ 
-    var maxPounds = 800;
-    var areaOfElevator = 30; // elevator has an area of 30 ft squared
-    var numPeople = fillElevator(maxPounds, areaOfElevator);
-    println("The elevator can fit " + numPeople + " people.");
-    }
-    // This function determines how many people can fit on an elevator
-    // Assume a person weighs 200 pounds and takes up 4 square feet of space
-function fillElevator(poundLimit, areaLimit){
-    var people = 0; // number of people so far
-    var pounds = 0; // collective weight of people
-    var space = 0; // amount of space people take up
-        while(pounds < poundLimit && space < areaLimit){
-            people ++;
-            pounds = pounds + 200;
-            space = space + 4;
-    }
-    return people;
-}```
-</pre>
-</p>
-- [] w
-- [] x
-- [] y
-- [] z
