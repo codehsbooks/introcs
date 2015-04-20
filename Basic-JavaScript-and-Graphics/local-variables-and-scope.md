@@ -103,4 +103,6 @@ function addFour(x){
     return result;
 }
 ```
+
+Here we've used ```x``` and ```y``` in both functions!  How does the computer know which ```x``` we're talking about?  The computer will use the ```x``` that is in scope.  
 ### Test Your Understanding
