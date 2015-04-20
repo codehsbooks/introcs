@@ -99,10 +99,10 @@ function main(){
 
 function addFour(x){
     var y = 4;
-    var result = x + 4;
+    var result = x + y;
     return result;
 }
 ```
 
-Here we've used ```x``` and ```y``` in both functions!  How does the computer know which ```x``` we're talking about?  The computer will use the ```x``` that is in scope.  
+Here we've used ```x``` and ```y``` in both functions!  How does the computer know which ```x``` we're talking about?  The computer will use the ```x``` that is in scope.  This means that in ```main```, the value of ```x``` is 3 and the value of ```y``` is 2.  Even after we call ```addFour```, these variables are not changed.  In ```addFour```, the value of ```x``` is whatever gets passed in, and the value of ```y``` is 4.
 ### Test Your Understanding
