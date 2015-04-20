@@ -28,7 +28,7 @@
 ###What is Scope?
 Now that we know what local variables are, we can define "scope".  A variable's scope is the function or loop where a variable exists.  The scope is defined by the block of code where a variable has been defined and has a valid value.  
 
-Let's look at a bit of code to clear things up.  In the function ```averageNumbers()``` below,  there are 2 local variables and 3 function argument variables.  The local variables are ```total``` and ```result```.  The function arguments are ```x```, ```y```, and ```z```.  The scope of the local variables is the function ```averageNumbers```.  The scope of the function arguments is also the function ```averageNumbers```.  This means that ```total```, ```average```, ```x```, ```y```, and ```z``` can be used in the function ```averageNumbers``` because they are considered defined and have a value.  These variables cannot be used outside of ```averageNumbers``` because their value is undefined outside of their scope. 
+Let's look at a bit of code to clear things up.  In the function ```averageNumbers()``` below,  there are 2 local variables and 3 function argument variables.  The local variables are ```total``` and ```result```.  The function arguments are ```x```, ```y```, and ```z```.  The scope of the local variables is the function ```averageNumbers```.  The scope of the function arguments is also the function ```averageNumbers```.  This means that ```total```, ```average```, ```x```, ```y```, and ```z``` can be used in the function ```averageNumbers``` because they are considered to be defined and have a value.  These variables cannot be used outside of ```averageNumbers``` because their value is undefined outside of their scope. 
 
 
 ```
@@ -59,7 +59,7 @@ function start(){
 To summarize, scope tells us where we can use a particular variable.  Scopes are usually functions or loop bodies.  A variable's scope is determined by where it is declared.  Function arguments' scope is the function they're passed in to.
 
 ###Why do I need to worry about Scope?
-Why do we even care where  a variable's scope is?  We use scope to help keep variables with the same name straight.  You cannot have two variables with the same name in the same scope.  This will either cause an error or one of the variables will be hidden by another.  
+Why do we even care where  a variable's scope is?  We use scope to help differentiate variables with the same name.  You cannot have two variables with the same name in the same scope.  This will either cause an error or one of the variables will be hidden by another.  
 
 For example, suppose you have an Uncle Tom and a best friend named Tom. Let's say one day you start telling a story about Tom to your other best friend Susie.  Since Susie doesn't know about your Uncle Tom, Susie immediately assumes you're telling her a story about your best friend Tom.  You could say that your best friend Tom is "in scope" when you are talking to Susie because the only Tom that is "defined" is your best friend Tom.  
 
