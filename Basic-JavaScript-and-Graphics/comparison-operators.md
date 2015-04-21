@@ -28,7 +28,7 @@ What will get printed to the screen? The above comparison, x > y, is evaluating 
 
 Let's get a little more practice. Take a look at the following code segment below. Pay close attention to each comparison and the operator being used.
 
----
+
 ```
 var a = 3;
 var b = 5;
@@ -42,6 +42,8 @@ var w = b > c;
 var x = a != d;
 var y = d <= a;
 var z = 4 <= c;
+```
+```
 
 println("t = " + t);
 println("u = " + u);
@@ -52,9 +54,7 @@ println("y = " + y);
 println("z = " + z);
 
 ```
-.
 
----
 
 When we run this code, what boolean values (**true** or **false**) will get printed to the screen for variables t through z? See if you can figure it out on your own. The solution is given below.
 
