@@ -7,7 +7,7 @@ A boolean refers to a value that is true or false. Those are the only values of 
 ###Meet George Boole
 Let's meet the fellow behind the name, "booleans," George Boole. Mr. Boole was an English-born mathematician, philosopher, and logician. He introduced boolean algebra in *The Mathematical Analysis of Logic* (1847) and *Investigation of the Laws of Thought* (1854). Many consider him to be one of the founders of Computer Science.
 
-![CodeHS](../static/javaScript/javascript_boole.jpg "CodeHS")
+![George Boole](../static/javaScript/javascript_boole.jpg "George Boole")
 
 ###Example with booleans
 How about an example? Let's create a variable and set it equal to true. Then, we'll print the variable. 
