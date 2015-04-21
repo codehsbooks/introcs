@@ -16,7 +16,7 @@ Given these changing conditions, there are many questions that would be useful f
 
 These types of questions can be asked using **conditions**. Conditions are very simple functions that look at the state of Karel's world and return a true or false answer. Here is a list of the conditions that Karel can check:
 
-|  |  |
+|    .|  .  |
 | -------------- | ---------------- |
 | frontIsClear() | frontIsBlocked() |
 | leftIsClear()  | leftIsBlocked()  | 
