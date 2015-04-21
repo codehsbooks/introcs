@@ -40,8 +40,8 @@ var u = a == d;
 var v = d >= b;
 var w = b > c;
 var x = a != d;
-var y = d <= a;
-var z = 4 <= c;
+var y = d < = a;
+var z = 4 < = c;
 ```
 ```
 
