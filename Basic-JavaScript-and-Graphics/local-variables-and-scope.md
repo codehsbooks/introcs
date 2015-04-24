@@ -42,21 +42,7 @@ Let's look at a bit of code to clear things up.  In the function ```averageNumbe
  // variables  are out of scope
  
  ```
-Here is an example of scoping rules with loops.
-
-```
-function start(){
-    // variable i is out of scope
-    for(var i  = 0; i < 10; i++){
-        // variable i is in scope
-        println(i);
-    }
-    
-    // variable i is out of scope
-}
-```
-
-To summarize, scope tells us where we can use a particular variable.  Scopes are usually functions or loop bodies.  A variable's scope is determined by where it is declared.  Function arguments' scope is the function they're passed in to.
+To summarize, scope tells us where we can use a particular variable.  Scopes are usually functions.  A variable's scope is determined by where it is declared.  Function arguments' scope is the function they're passed in to.
 
 ###Why do I need to worry about Scope?
 Why do we even care where  a variable's scope is?  We use scope to help differentiate variables with the same name.  You cannot have two variables with the same name in the same scope.  This will either cause an error or one of the variables will be hidden by another.  
@@ -122,7 +108,7 @@ function computeSquareArea(side){
 
 In this function, there is a function parameter and a local variable named ```side```.  When this happens, the function parameter gets hidden by the local variable.  That means that the value of the function parameter is never used.  Whenever ```side``` is used in the function, the value of the local variable is used.  Thus, this function will always return 9 no matter what is passed in.
 
-In summary, local variables are variables that belong to a particular function or loop body.  The scope of a variable is which function or loop it was declared in or passed in to.
+In summary, local variables are variables that belong to a particular function.  The scope of a variable is which function it was declared in or passed in to.
 
 ### Test Your Understanding
 ---
