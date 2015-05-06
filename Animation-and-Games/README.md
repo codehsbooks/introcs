@@ -1,3 +1,3 @@
 # Animation and Games
 
-Introduction to animation and games
+An introduction to creating animations and building games using JavaScript.
