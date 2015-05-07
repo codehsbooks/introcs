@@ -36,7 +36,6 @@
 * [Animation and Games](Animation-and-Games/README.md)
     * [Timers](Animation-and-Games/timers.md)
     * [Using Timers](Animation-and-Games/using-timers.md)
-    * [Bouncing Ball](Animation-and-Games/bouncing-ball.md)
     * [Mouse Events: Mouse Clicked](Animation-and-Games/mouse-events-mouse-clicked.md)
     * [Mouse Events: Mouse Moved](Animation-and-Games/mouse-events-mouse-moved.md)
     * [Drawing Lines](Animation-and-Games/drawing-lines.md)
