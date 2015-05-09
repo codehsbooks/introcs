@@ -41,9 +41,22 @@ ball.move(0, 5);
 
 But how do we have the program wait before moving the ball? And what about repeating the process? A loop won't quite work, as there's no way to have a loop pause between iterations. We'll need to use a new tool, the **timer**, to create our animation.
 
+## Introducing Timers
+Timers allow us to call a specified function repeteadly with a pause, or delay, between each function call. Timers and loops are similar in that they both repeate code, but they are actually quite different. A loop has no sense of time or delay -- it enters the next iteration as soon as one iteration finishes. A timer calls a function at specific intervals until the programmer tells the timer to stop.
+
+The ability to call a function over and over with a pause in between is very helpful when creating animation. For example, the code above to move the ball can be placed into a `draw` function that gets called by a timer every 50 milliseconds.
+
+```
+function draw(){
+    ball.move(0, 5);
+}
+```
 
 
-## Introducting Timers
+* timers cannot take parameters
+* trace the x, y coordinates of the ball as the timer calls it
+* 
+
 
 ## Using a Timer
 
