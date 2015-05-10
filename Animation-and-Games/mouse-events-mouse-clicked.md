@@ -25,7 +25,13 @@ function callbackFunction(e){
 Let's look at an example.  Suppose I want to print out a star every time the user clicks anywhere on the screen.  The code would look like the following
 
 ```
-    
+function start(){
+    mouseClickMethod(printStar);
+}
+
+function printStar(e){
+    print('*');
+}
 
 
 ```
