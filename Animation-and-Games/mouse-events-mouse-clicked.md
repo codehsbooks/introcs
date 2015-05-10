@@ -4,9 +4,9 @@ Sometimes we want the user to be able to interact with our programs.  We've seen
 
 
 ## What are Events?
-In spoken English, events usually refer to special gatherings, like sporting events or parties.  In computer science, events are 
+In spoken English, events usually refer to special gatherings, like sporting events or parties.  In computer science, events are actions that occur that the program needs or wants to respond to.  Here, we are specifically talking about mouse events.  Mouse events are "triggered" or "fired" whenever the user does something with the mouse.  These actions include moving the mouse or clicking the mouse.
 
-## Triggering Events
+## Responding to  Events
 
 
 ## Getting Event Information
