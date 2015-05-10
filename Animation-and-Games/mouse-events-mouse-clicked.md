@@ -38,7 +38,10 @@ function printStar(e){
 ```
 
 There are a few things to note about this code.
-1.  
+1.  The callback method can be named any legal function name
+2.  Do not put () after the function name when registering the callback
+3.  The callback method always takes  single parameter, typically named ```e```
+4.  The callback method is **always** called when the event it's registered to occurs
 
 ## Getting Event Information
 
