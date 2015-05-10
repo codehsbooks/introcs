@@ -73,4 +73,12 @@ You clicked on spot (245.90625, 386.5555419921875)
 ## Putting It All Together
 One final point to consider is the fact that the callback method only takes a single parameter.  What if the function you really want to call needs more parameters?  Then you use the callback method to call the actual function you want and pass it all the parameters you'd like.
 
-Let's look at a bigger example to wrap up.  
+Let's look at a bigger example to wrap up.  Suppose you are writing a program to emulate an alarm system on your house.  You need to know when your Mom comes home because she won't let you eat cookies before dinner.  You've worked out a deal with your little sister.  When she sees your Mom coming around the corner, she'll let you know.  In return, you'll give her a cookie.  Let's represent your little sister seeing your Mom coming home as a mouse click event.  Every time the mouse is clicked, it means that your little sister saw your Mom.  Our program could look like
+
+```
+function start(){
+    mouseClickMethod(
+}
+
+
+```
