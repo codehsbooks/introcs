@@ -45,6 +45,32 @@ There are a few things to note about this code.
 4.  The callback method is **always** called when the event it's registered to occurs
 
 ## Getting Event Information
+Now that we've seen a basic callback function, let's discuss the parameter ```e```.  This parameter is an Event object.  It holds information about the event that called the callback function.  Remember using Circles and Rectangles?  You could call methods like ```circle.getX()``` to get the circle's x position.  You can do the same thing with the event object!
 
+The event object has 2 functions we're interested in right now.  It has ```getX()``` and ```getY()```.  These methods return the X and Y position of the mouse click.  For example, the following code snippet will print out the X and Y locations of where the user clicked.
 
+```
+function start(){
+    // register the callback function
+    mouseClickMethod(printCoordinates);
+}
+
+// Callback method
+// Prints out the (x,y) coordinates of the 
+// mouse click
+function printCoordinates(e){
+    println("You clicked on spot (" + e.getX() + ", " + e.getY() + ")");
+}
+```
+
+One output looks like this
+```
+You clicked on spot (42.90625, 77.5555419921875)
+You clicked on spot (242.90625, 255.5555419921875)
+You clicked on spot (78.90625, 372.5555419921875)
+You clicked on spot (245.90625, 386.5555419921875)
+```
 ## Putting It All Together
+One final point to consider is the fact that the callback method only takes a single parameter.  What if the function you really want to call needs more parameters?  Then you use the callback method to call the actual function you want and pass it all the parameters you'd like.
+
+Let's look at a bigger example to wrap up.  
