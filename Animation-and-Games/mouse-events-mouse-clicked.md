@@ -73,12 +73,53 @@ You clicked on spot (245.90625, 386.5555419921875)
 ## Putting It All Together
 One final point to consider is the fact that the callback method only takes a single parameter.  What if the function you really want to call needs more parameters?  Then you use the callback method to call the actual function you want and pass it all the parameters you'd like.
 
-Let's look at a bigger example to wrap up.  Suppose you are writing a program to emulate an alarm system on your house.  You need to know when your Mom comes home because she won't let you eat cookies before dinner.  You've worked out a deal with your little sister.  When she sees your Mom coming around the corner, she'll let you know.  In return, you'll give her a cookie.  Let's represent your little sister seeing your Mom coming home as a mouse click event.  Every time the mouse is clicked, it means that your little sister saw your Mom.  Our program could look like
+Let's look at a bigger example to wrap up.  Suppose you are writing a program to emulate an alarm system on your house.  You need to know when your Mom comes home because she won't let you eat cookies before dinner.  You've worked out a deal with your little sister.  When she sees your Mom coming, she'll let you know.  In return, you'll give her a cookie.  The number of cookies she gets depends on how close she let your mom get before warning you.  The closer she lets your mom get, the less cookies she gets.
+
+Let's represent your little sister seeing your Mom coming home as a mouse click event.  Every time the mouse is clicked, it means that your little sister saw your Mom.  When she warns you, you have to quickly put away all of the cookies, and save some for your sister.  The number of cookies she gets depends on how close she lets your mom get before warning you. Our program could look like
 
 ```
 function start(){
-    mouseClickMethod(
+    drawHouse();
+    mouseClickMethod(warning);
 }
 
+// draws your house
+function drawHouse(){
+    var house = new Rectangle(100,50);
+    house.setColor(Color.red);
+    house.setPosition(getWidth()/2, getHeight()/2);
+    add(house);
+}
+// called when your sister warns you
+function warning(e){
+     var dist = computeDistance(e.getX(), e.getY());
+    var height = getHeight()/2;
+    if (dist > height/3){
+        // mom is more than 1/3 of the screen away
+        giveCookies(3);
+    } else if(dist > height/4){
+        // mom is more than 1/3 of the screen, but less than 1/4 of the screen
+        giveCookies(2);
+    } else{
+        // mom is less than 1/4 of the screen away
+        giveCookies(1);
+    }
+}
+
+// gives cookies to your sister
+function giveCookies(numCookies){
+    println("Your sister earned " + numCookies + " cookies.");
+}
+
+// computes the  distance from position (x,y)
+// to your house
+// Don't worry if you don't understand this calculation
+function computeDistance(x,y){
+    var houseX = getWidth()/2;
+    var houseY = getHeight()/2;
+    return Math.sqrt((houseX- x)*(houseX-x) + (houseY-y)*(houseY-y));
+}
 
 ```
+
+Try it out in your editor!
