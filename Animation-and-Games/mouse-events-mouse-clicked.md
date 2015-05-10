@@ -7,7 +7,20 @@ Sometimes we want the user to be able to interact with our programs.  We've seen
 In spoken English, events usually refer to special gatherings, like sporting events or parties.  In computer science, events are actions that occur that the program needs or wants to respond to.  Here, we are specifically talking about mouse events.  Mouse events are "triggered" or "fired" whenever the user does something with the mouse, such as moving the mouse or clicking the mouse.
 
 ## Responding to Events
-To respond to an event, we have to set up special method called a Callback Method.  
+To respond to an event, we have to set up special method called a Callback Method.  This method gets called when the program detects an event.  We also have to tell the program that we want to associate a particular method with an event. For mouse click events, this looks like
+
+```
+// This tells the program that when a mouse
+// click happens, the function named
+// 'callbackFunction' should be called
+mouseClickMethod(callbackFunction);
+
+// This is the callback function
+// Notice it has a single parameter, e
+function callbackFunction(e){
+}
+
+```
 
 ## Getting Event Information
 
