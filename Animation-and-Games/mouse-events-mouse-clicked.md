@@ -19,7 +19,6 @@ mouseClickMethod(callbackFunction);
 // Notice it has a single parameter, e
 function callbackFunction(e){
 }
-
 ```
 
 ## Getting Event Information
