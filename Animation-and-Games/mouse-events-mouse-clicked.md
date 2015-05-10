@@ -78,7 +78,7 @@ Let's look at a bigger example to wrap up.  Suppose you are writing a program to
 
 Let's represent your little sister seeing your Mom coming home as a mouse click event.  Every time the mouse is clicked, it means that your little sister saw your Mom.  When she warns you, you have to give some cookies to your sister.  The number of cookies she gets depends on how close she lets your mom get before warning you.
 
-In this program, the mouse click event is your little sister warning you about your mom coming.  The callback function is giving your sister cookies.  However, since we can't pass parameters to the callback function, we need another function to use as the callback function and call ```giveCookies()``` from that function.  Notice this also lets us decide after the event what the parameters should be based on the details of the event.
+In this program, the mouse click event is your little sister warning you about your mom coming.  The position of the mouse click represents where your mom is in relation to the house.  The callback function is giving your sister cookies.  However, since we can't pass parameters to the callback function, we need another function to use as the callback function and call ```giveCookies()``` from that function.  Notice this also lets us decide after the event what the parameters should be based on the details of the event.
 
 Our program could look like
 
@@ -93,8 +93,10 @@ function start(){
 // Notice that you can call the function you actually want, giveCookies,
 // with a parameter
 function warning(e){
+    // figure out how far away your mom is
     var dist = computeDistance(e.getX(), e.getY());
     var height = getHeight()/2;
+    // Give your sister cookies based on the distance
     if (dist > height/3){
         // mom is more than 1/3 of the screen away
         giveCookies(3);
