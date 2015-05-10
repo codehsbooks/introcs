@@ -4,9 +4,12 @@ Sometimes we want the user to be able to interact with our programs.  We've seen
 
 
 ## What are Events?
+In spoken English, events usually refer to special gatherings, like sporting events or parties.  
 
 ## Triggering Events
 
+
 ## Getting Event Information
+
 
 ## Putting It All Together
