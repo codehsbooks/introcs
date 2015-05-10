@@ -30,7 +30,7 @@ function start(){
 }
 
 function printStar(e){
-    print('*');
+    print("*");
 }
 
 
