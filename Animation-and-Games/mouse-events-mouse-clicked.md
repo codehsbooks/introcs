@@ -37,6 +37,8 @@ function printStar(e){
 }
 ```
 
+There are a few things to note about this code.
+1.  
 
 ## Getting Event Information
 
