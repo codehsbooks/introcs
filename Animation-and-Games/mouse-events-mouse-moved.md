@@ -121,6 +121,10 @@ function updateCounter(){
 }
 ```
 
+### Dragging an Object
+
+// Add one more code example to drag a rectangle object around the screen?
+
 
 
 
