@@ -1,10 +1,10 @@
 # Mouse Move Events
 
-In the previous chapter, you learned how to respond to a mouse click by using events. But what if you want to respond to a user moving a mouse? What if the user holds the mouse button down? What if they drag the mouse? Surely, there must be a way to handle these other types of events! Well, good news! There is!
+In the previous chapter, you learned how to respond to a mouse click. But what if you want to respond to a user moving a mouse? What if the user holds the mouse button down? What if they drag the mouse? How would we handle these things? Surely, there must be a way! Well, good news! There is!
 
-## More Mouse Methods
+### More Mouse Methods
 
-The `mouseClickMethod` is just one of many different mouse methods available. Several more are given below:
+The `mouseClickMethod` is just one of many different methods available for handling mouse input. More are listed below:
 
 | Mouse Method | Responds To|
 | -- | -- |
@@ -33,7 +33,7 @@ function callbackFunction(e){
 }
 ```
 
-Other mouse methods take on the same basic structure. You can just substitute the appropriate mouse method in the `start()` function. For example, we would respond to a mouse being moved by doing:
+Other mouse methods take on the same basic structure. For example, we would respond to a mouse being moved by doing:
 
 ```
 function start(){
@@ -49,9 +49,9 @@ function callbackFunction(e){
 }
 ```
 
-### Painting with the Mouse
+## Painting with the Mouse
 
-Let's create a simple painting program using the mouse move method. This program will paint circles along a path when the mouse is moved:
+Let's create a simple painting program using the mouse move method. This program will paint circles along a path that the mouse is moved:
 
 ```
 function start(){
@@ -67,28 +67,37 @@ function paint(e){
 
 The `mouseMoveMethod` in the `start()` function automatically detects when the mouse is moved. Each time it detects mouse movement, the `paint(e)` function gets called. 
 
-Within our `paint(e)` function, we create a circle of radius 15. We then set the circle's position. Recall that `e.getX()` and `e.getY()` return the X and Y positions of the mouse's location. Thus, we are setting the circle's position at the mouse's current location. Finally, we add the circle to the screen.
+Within our `paint(e)` function, we create a circle of radius 15. We then set the circle's position. Recall that `e.getX()` and `e.getY()` return the X and Y positions of the mouse's location. Thus, we are setting the circle's position to the mouse's current location. Finally, we add the circle to the screen.
 
 Remember, the `paint(e)` function is called **every time** the mouse moves to a new location. This results in a snake-like trail of circles along the mouse's path.
 
+[img1]
+
 ### Improving Our Painting Program
 
-```
-var CIRCLE_RADIUS = 15;
+While our painting program is nice, it could use a little bit more polish. Instead of drawing circles when the mouse is moved, let's draw circles when the mouse is dragged. Dragging differs from simple mouse movement in that the user must hold down the mouse button while moving. Additionally, this program will randomly generate a color for each circle drawn.
 
+```
 function start(){
 	mouseDragMethod(paint);
 }
 
 function paint(e){
-	var circle = new Circle(CIRCLE_RADIUS);
+	var circle = new Circle(15);
 	circle.setColor(Randomizer.nextColor());
 	circle.setPosition(e.getX(), e.getY());
 	add(circle);
 }
 ```
 
-### Counting Circles
+This results in a beautiful trail of color:
+
+[img2]
+
+
+### Counting the Circles
+
+You may have noticed that our painting program draws **a lot** of circles in a short amount of time. Let's add a text label which counts the total number of circles drawn to the screen.
 
 ```
 var CIRCLE_RADIUS = 15;
@@ -110,20 +119,20 @@ function paint(e){
 }
 
 function initializeCirclesCounter(){
-    txt = new Text("NUMBER OF CIRCLES: ", "14pt Arial");
+    txt = new Text("NUMBER OF CIRCLES DRAWN: 0", "14pt Arial");
     txt.setPosition(getWidth()/2 - txt.getWidth()/2, txt.getHeight());
     txt.setColor(Color.blue);
     add(txt);
 }
 
 function updateCounter(){
-    txt.setText("NUMBER OF CIRCLES: " + ++numCircles);
+    txt.setText("NUMBER OF CIRCLES DRAWN: " + ++numCircles);
 }
 ```
 
-### Dragging an Object
+Each time a circle is drawn in our `paint(e)` method, we increment `numCircles` by 1 and display the change to the screen.
 
-// Add one more code example to drag a rectangle object around the screen?
+[img3]
 
 
 
