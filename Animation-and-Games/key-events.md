@@ -1,6 +1,6 @@
 # Key Events
 
-We now know how to handle different types of input from the mouse, but let's not neglect the keyboard. We can handle input from the keyboard similiarly to how we handled input from the mouse. We use key events!
+We now know how to handle different types of input from the mouse, but let's not forget about the keyboard. We can handle input from the keyboard similiarly to how we handled input from the mouse. We use key events!
 
 ## Key Event Methods
 
