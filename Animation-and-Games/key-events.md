@@ -32,7 +32,7 @@ function callbackFunction(e){
 
 It is important to notice that the callback function will be called when **any** key gets pressed. It does not rely on **one** specific key being pressed down. Thus, we still need some way of determing which specific key is being pushed 
 
-### Detecting a Specific Key
+## Detecting a Specific Key
 
 We make use of our callback function's parameter `e` to detect a specific key. Each key on the keyboard is assigned a unique numer or id. We use `e.keyCode` to return the unique numerical id of the key being pressed.
 
@@ -52,7 +52,7 @@ function keyDown(e) {
 
 This program will print out the unique id of a key. The id will vary depending on which key is pressed.
 
-## Using Keyboard Constants and Methods
+### Using Keyboard Constants and Methods
 
 You don't have to memorize the numerical id of each key on the keyboard. That would be a nightmare! Instead, you can make use of the convenient constants and methods given below:
 
