@@ -69,9 +69,9 @@ The `mouseMoveMethod` in the `start()` function automatically detects when the m
 
 Within our `paint(e)` function, we create a circle of radius 15. We then set the circle's position. Recall that `e.getX()` and `e.getY()` return the X and Y positions of the mouse's location. Thus, we are setting the circle's position to the mouse's current location. Finally, we add the circle to the screen.
 
-Remember, the `paint(e)` function is called **every time** the mouse moves to a new location. This results in a snake-like trail of circles along the mouse's path.
+Remember, the `paint(e)` function is called **every time** the mouse moves to a new location. This results in a snake-like trail of circles along the mouse's path:
 
-![CodeHS](../static/logo_name_small.png "CodeHS")
+![Mouse Events Paint Program 1](../static/animationGames/mouse_events_paint_program1.png "Mouse Events Paint Program 1")
 
 ### Improving Our Painting Program
 
@@ -92,12 +92,12 @@ function paint(e){
 
 This results in a beautiful trail of color:
 
-[img2]
+![Mouse Events Paint Program 2](../static/animationGames/mouse_events_paint_program2.png "Mouse Events Paint Program 2")
 
 
 ### Counting the Circles
 
-You may have noticed that our painting program draws **a lot** of circles in a short amount of time. Let's add a text label which counts the total number of circles drawn to the screen.
+You may have noticed that our painting program draws **a lot** of circles in a short amount of time. For curiosity's sake, let's add a text label which counts the total number of circles drawn to the screen.
 
 ```
 var CIRCLE_RADIUS = 15;
@@ -130,9 +130,9 @@ function updateCounter(){
 }
 ```
 
-Each time a circle is drawn in our `paint(e)` method, we increment `numCircles` by 1 and display the change to the screen.
+Each time a circle is drawn in our `paint(e)` method, we increment `numCircles` by 1 and display the change to the screen. The resulting program looks like:
 
-[img3]
+![Mouse Events Paint Program 3](../static/animationGames/mouse_events_paint_program3.png "Mouse Events Paint Program 3")
 
 ## Strobe Ball
 
