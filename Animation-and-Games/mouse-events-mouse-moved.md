@@ -71,7 +71,7 @@ Within our `paint(e)` function, we create a circle of radius 15. We then set the
 
 Remember, the `paint(e)` function is called **every time** the mouse moves to a new location. This results in a snake-like trail of circles along the mouse's path.
 
-[img1]
+![CodeHS](../static/logo_name_small.png "CodeHS")
 
 ### Improving Our Painting Program
 
