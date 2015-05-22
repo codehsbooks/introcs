@@ -34,7 +34,7 @@ It is important to notice that the callback function will be called when **any**
 
 ## Detecting a Specific Key
 
-We make use of our callback function's parameter `e` to detect a specific key. Each key on the keyboard is assigned a unique numer or id. We use `e.keyCode` to return the unique numerical id of the key being pressed.
+We make use of our callback function's parameter `e` to detect a specific key. Each key on the keyboard is assigned a unique number or id. We use `e.keyCode` to return the unique numerical id of the key being pressed.
 
 ```
 function start(){
