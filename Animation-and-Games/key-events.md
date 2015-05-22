@@ -1,6 +1,6 @@
 # Key Events
 
-We now know how to handle different types of input from the mouse, but let's not forget about the keyboard. We can handle input from the keyboard similiarly to how we handled input from the mouse. We use key events!
+We now know how to handle different types of input from the mouse, but let's not forget about the keyboard. We can handle input from the keyboard similiarly to how we handled input from the mouse. We use special event methods that take a callback function!
 
 ## Key Event Methods
 
@@ -30,7 +30,7 @@ function callbackFunction(e){
 }
 ```
 
-It is important to notice that the callback function will be called when **any** key gets pressed. It does not rely on **one** specific key being pressed down. Thus, we still need some way of determing which specific key is being pushed 
+It is important to notice that the callback function will be called when **any** key gets pressed. It does not rely on **one** specific key being pressed down. Thus, we still need some way of determing which specific key is being pushed. How can we do this?
 
 ## Detecting a Specific Key
 
@@ -56,21 +56,26 @@ This program will print out the unique id of a key. The id will vary depending o
 
 You don't have to memorize the numerical id of each key on the keyboard. That would be a nightmare! Instead, you can make use of the convenient constants and methods given below:
 
-| Constant or Method | Description |
+| Constant or Method | Represents which key?|
 | -- | -- |
-| Keyboard.LEFT | 1:2 |
-| Keyboard.RIGHT | 1:3 |
-| Keyboard.UP | 1:4 |
-| Keyboard.DOWN | 1:5 |
-| Keyboard.ENTER | 1:6 |
-| Keyboard.SPACE | 1:7 |
-| Keyboard.letter('c')| 1:8 |
-| Keyboard.digit('#') | 1:9 |
+| Keyboard.LEFT | Left arrow key |
+| Keyboard.RIGHT | Right arrow key |
+| Keyboard.UP | Up arrow key  |
+| Keyboard.DOWN | Down arrow key  |
+| Keyboard.ENTER | Enter key |
+| Keyboard.SPACE | Spacebar |
+| Keyboard.letter('L')| The L key |
+| Keyboard.digit('2') | The number 2 |
 
-The program below uses the `Keyboard.LEFT` and `Keyboard.SPACE` constants to determine if those keys are pressed. It also makes use of the `Keyboard.letter()` method to check if the letter `K` is pressed. 
+The constants are written in all capital letters and represent only **one** specific key. The two methods, `keyboard.letter()` and `keyboard.digit()`, will represent the key for any letter or number within the parenthesis `()`.
+
+### Detecting an Arrow Key
+
+Let's get some practice using constants and methods to detect specific keys. On a key press, this program will check to see if it was one of the four arrow keys. If the user presses an arrow key, it will print out which arrow key was pressed. Otherwise, it will inform the user that they did not press an arrow key at all.
 
 ```
 function start(){
+    println("Press an arrow key!");
     // This tells the program that when a key
     // is pressed down, the function named
     // 'keyDown' should be called
@@ -79,21 +84,79 @@ function start(){
 
 // This is the callback function named keyDown
 function keyDown(e) {
-	if (e.keyCode == Keyboard.LEFT) {
-		println("You pressed the left arrow key.");
+    if (e.keyCode == Keyboard.LEFT) {
+        println("You pressed the left arrow key.");
+    } else if(e.keyCode == Keyboard.RIGHT){
+        println("You pressed the right arrow key.");
+    } else if(e.keyCode == Keyboard.DOWN){
+        println("You pressed the down arrow key.");
+    } else if(e.keyCode == Keyboard.UP){
+        println("You pressed the up arrow key.");
+    } else {
+        println("You did not press an arrow key.");
+    }
+}
+```
+
+By comparing `e.keyCode` with each of the directional key constants, we can tell which arrow key is pressed.
+
+### Detecting a Number
+
+This program asks the user to enter a digit between 0 and 9. It then uses a for loop to detect which number key was pressed.
+
+```
+function start(){
+    println("Enter a digit (0-9).");
+    // This tells the program that when a key
+    // is pressed down, the function named
+    // 'keyDown' should be called
+    keyDownMethod(keyDown);
+}
+
+// This is the callback function named keyDown
+function keyDown(e) {
+    for(var i = 0; i <= 9; i++){
+        if (e.keyCode == Keyboard.digit(i)) {
+            println("You pressed the " + i + " key.")
+        }
+    }
+}
+```
+
+
+## Keyboard Square Program
+
+In this program, the user controls a square using the directional keys. The square will move in the direction of the key that is pushed.
+
+```
+var square;
+
+function start(){
+	square = new Rectangle(40, 40);
+	square.setPosition(100, 100);
+	add(square);
+	
+	keyDownMethod(keyDown);
+}
+
+function keyDown(e){
+	if(e.keyCode == Keyboard.LEFT || e.keyCode == Keyboard.letter('a')){
+		square.move(-5, 0);
 	}
-	if(e.keyCode == Keyboard.SPACE){
-		println("You pressed the space bar.");
+	
+	if(e.keyCode == Keyboard.RIGHT || e.keyCode == Keyboard.letter('d')){
+		square.move(5, 0);
 	}
-	if(e.keyCode == Keyboard.letter('K')){
-		println("You pressed K.");
+	
+	if(e.keyCode == Keyboard.UP || e.keyCode == Keyboard.letter('w')){
+		square.move(0, -5);
+	}
+	
+	if(e.keyCode == Keyboard.DOWN || e.keyCode == Keyboard.letter('s')){
+		square.move(0, 5);
 	}
 }
 ```
 
-By comparing the pressed key, `e.keyCode`, with one of the constants or methods, we can tell which key is pressed.
-
-## Keyboard Square Program
-
-//Todo
+Alternatively, the user can choose to use the `w`, `a`, `s`, and `d` keys instead of the arrow keys. `w` moves the square up, `a` moves it left, `s` moves it down, and `d` moves it right. 
 
