@@ -134,6 +134,32 @@ Each time a circle is drawn in our `paint(e)` method, we increment `numCircles` 
 
 [img3]
 
+## Strobe Ball
+
+In this next program, we create a ball of random color and place it initially in the upper left corner of the screen. When the user moves the mouse, the ball will follow it and change to a different random color. This creates a strobe effect on our ball as it is moved around.
+
+```
+var BALL_RADIUS = 30;
+var ball;
+
+function start() {
+    //Create the ball in the upper right corner
+    ball = new Circle(BALL_RADIUS);
+	ball.setPosition(ball.getHeight()/2, ball.getWidth()/2);
+	ball.setColor(Randomizer.nextColor());
+	add(ball);
+	
+	//On Mouse Move: Follow Mouse and Change Color
+    mouseMoveMethod(moveBallAndStrobe);
+}
+
+function moveBallAndStrobe(e){
+    ball.setColor(Randomizer.nextColor());
+    ball.setPosition(e.getX(), e.getY());
+}
+```
+
+
 
 
 
