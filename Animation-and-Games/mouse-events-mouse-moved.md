@@ -1,6 +1,6 @@
 # Mouse Move Events
 
-In the previous chapter, you learned how to respond to a mouse click. But what if you want to respond to a user moving a mouse? What if the user holds the mouse button down? What if they drag the mouse? How would we handle these things? Surely, there must be a way! Well, good news! There is!
+In the previous chapter, you learned how to respond to a mouse click. But what if you want to respond to a user moving a mouse? What if the user holds the mouse button down? What if they drag the mouse? How would we handle these things? Surely, there must be a way!
 
 ### More Mouse Methods
 
