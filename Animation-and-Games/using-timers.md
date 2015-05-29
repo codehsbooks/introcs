@@ -62,7 +62,7 @@ How often does the timer call this function?
 - ( ) Every 50 seconds
 - ( ) Every 5 milliseconds
 - ( ) Every 5 seconds
-- (X) Every 50 milliseconds 
+- (x) Every 50 milliseconds 
 
 > Incorrect.
 > The delay is given in milliseconds, not seconds.
@@ -94,7 +94,7 @@ In the Random Circles program above, what command will stop the timer from drawi
 
 - ( ) `stopTime(draw)`
 - ( ) `stop(draw)`
-- (X) `stopTimer(draw)`
+- (x) `stopTimer(draw)`
 - ( ) `stopTimer(draw, 50)`
 - ( ) `stopTimer(drawCircle)`
 
@@ -107,7 +107,7 @@ In the Random Circles program above, what command will stop the timer from drawi
 
 When does the timer stop in the Random Circles program?
 
-- (X) When the `counter` reaches 1000.
+- (x) When the `counter` reaches 1000.
 - ( ) When the screen is filled with circles.
 - ( ) It does not stop until there are 990 circles.
 - ( ) The timer stops when there are no more circles.
