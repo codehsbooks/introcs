@@ -2,7 +2,7 @@
 
 ![CodeHS](static/logo_name_small.png "CodeHS")
 
-Introduction to computer science.
+An introduction to computer science. [Read the book](http://codehs.gitbooks.io/introcs/content/) online at GitBook!
 
 - Programming with Karel
 
