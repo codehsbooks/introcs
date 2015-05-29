@@ -22,9 +22,9 @@ var ball;
 
 ```
 function start(){
-	ball = new Circle(20);
-	ball.setPosition(50, 50);
-	add(ball);
+    ball = new Circle(20);
+    ball.setPosition(50, 50);
+    add(ball);
 }
 ```
 
@@ -58,15 +58,15 @@ We can then set a timer in `start` to call this `draw` function every 75 millise
 var ball;
 
 function start(){
-	ball = new Circle(20);
-	ball.setPosition(50, 50);
-	add(ball);
+    ball = new Circle(20);
+    ball.setPosition(50, 50);
+    add(ball);
 	
-	setTimer(draw, 75);
+    setTimer(draw, 75);
 }
 
 function draw(){
-    	ball.move(0, 25);
+    ball.move(0, 25);
 }
 ```
 
