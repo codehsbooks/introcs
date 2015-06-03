@@ -20,13 +20,25 @@ Here we see the use of square brackets again. An element can be retrieved by the
 var myStates = ["California", "Wyoming", "Vermont", "Wisconsin"];
 print(myStates[0] + " is 3 thousand miles from " + myStates[2] + ".");
 ```
+
 This code produces the following output:
 ```
 California is 3 thousand miles from Vermont.
 ```
 
-<h3>Out of Bounds</h3>
+<h3>Out of Bounds Warning</h3>
+Only indices 0 through 1 less than the length of the array are valid for any given array. If you attempt to retrieve the element corresponding to an index that is "out of bounds," meaning it is negative, or greater than or equal to the length of the array, you will not get useful results. On the CodeHS platform, the following code:
 
+```
+var arr = ["cat"];
+print(arr[1]);
+```
+produces the following output:
+```
+undefined
+```
+
+On most other programming platforms, you will encounter a compiler error that notifies you that you are attempting to retrieve an element for an invalid index.
 
 
 
