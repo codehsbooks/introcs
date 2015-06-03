@@ -21,3 +21,5 @@ We'd like to thank all those who have helped write this book:
 - Kathryn Rodgers
 
 - Michael Goheen
+
+- Neil Shankar
