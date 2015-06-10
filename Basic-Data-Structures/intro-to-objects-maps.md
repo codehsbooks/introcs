@@ -52,4 +52,26 @@ var myDictionary = {};
 Once you have an empty dictionary, you can add items to it as pairs of keys and values. There is a specifc way
 of doing this: `nameOfDictionary['nameOfKey'] = 'value';`
 
+We can create a dictionary of Karel's favorite things like so:
+
+```
+var karelsFavoriteThings = {};
+
+karelsFavoriteThings['food'] = 'doggie treats';
+karelsFavoriteThings['toy'] = 'tennis ball';
+karelsFavoriteThings['sound'] = 'dogs barking';
+karelsFavoriteThings['hobby'] = 'coding';
+karelsFavoriteThings['number'] = 42;
+```
+
+This gives us a map of Karel's favorite things that would look like:
+
+|KEY | VALUE|
+|---|---|
+|food | doggie treats|
+|toy | tennis ball|
+|sound | dogs barking|
+|hobby | coding |
+|number | 42 |
+
 
