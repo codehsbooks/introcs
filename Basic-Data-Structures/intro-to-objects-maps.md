@@ -74,4 +74,33 @@ This gives us a map of Karel's favorite things that would look like:
 |hobby | coding |
 |number | 42 |
 
+### Getting Items out of a Dictionary
 
+Now that we have an object containing Karel's favorite things, we may want to look up some information about
+Karel. This is how to look something up in a programming dictionary: `nameOfDictionary['nameOfKey'];`. This will return the value associated with that key, which you can store this into a variable, print, and so on.
+
+Let's get some of Karel's favorite things out of the dictionary:
+
+```
+println("Some of Karel's favorite things: ");
+
+var favToy = karelsFavoriteThings['toy'];
+println("Karel's favorite toy is: ");
+println(favToy);
+
+println("Karel's favorite food is: " + karelsFavoriteThings['food']);
+
+println(karelsFavoriteThings['number']);
+println("That is Karel's favorite number.");
+```
+
+This program would print the following to the console:
+
+```
+Some of Karel's favorite things:
+Karel's favorite toy is:
+tennis ball
+Karel's favorite food is: doggie treats
+42
+That is Karel's favorite number.
+```
