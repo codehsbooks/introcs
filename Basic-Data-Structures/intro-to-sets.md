@@ -1,10 +1,6 @@
 ## Intro to Sets
 
-Sets are useful when you want to create a collection of elements, *but the order does not matter*. 
-
-#### Properties of sets
-
-As stated above, the elements in a set do not follow a certain order. Additionally, sets do not contain duplicates, which means that an element can only show up once in a set. All that matters is whether the element is in the set or not. Using the above example, 
+Sets are useful when you want to create a collection of elements, *but the order does not matter*. Additionally, sets do not contain duplicates, which means that an element can only show up once in a set. All that matters is whether the element is in the set or not.
 
 
 #### Creating a new set
@@ -39,7 +35,14 @@ Now that we have removed "German Shepard" from  the set, all that remains in the
 
 ##### Finding the size of a set
 
-In order to find out how many elements are in the set, we can use the .size() function. We can find the size of our dogs set like so:
+In order to find out how many elements are in the set, we can use the .size() function. The following code would allow us to figure out the size of our dogs set and stores it in the variable numberOfDogs.
+
+```
+var numberOfDogs = dogs.size();
+```
+
+
+
 
 
 
