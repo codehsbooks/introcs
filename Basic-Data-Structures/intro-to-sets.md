@@ -1,9 +1,14 @@
 ## Intro to Sets
 
-Sets are useful when you want to create a collection of elements, but the order does not matter. 
+Lets say you need to bring all of your textbooks to school. Sets are useful when you want to create a collection of elements, but the order does not matter. 
 
-#### Syntax
-To create a new set, 
+#### Properties of sets
+
+#### Creating a new set
+To create a new set, we can initialize one like so:
+```
+var set = new Set();
+```
 
 #### Using Sets
 
