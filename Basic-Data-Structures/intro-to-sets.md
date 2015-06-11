@@ -5,13 +5,15 @@ Lets say you need to bring all of your textbooks to school. Sets are useful when
 #### Properties of sets
 
 #### Creating a new set
-To create a new set, we can initialize one like so:
+To create a new set named newSet, we can initialize it like so:
 ```
-var set = new Set();
+var newSet = new Set();
 ```
 
 #### Using Sets
 
 ##### Adding to a set
+
+Adding to a set is very simple. 
 
 ##### Finding the size of a set
