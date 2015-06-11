@@ -26,4 +26,6 @@ We'd like to thank all those who have helped write this book:
 
 - Kurt Hepler
 
+- Vincent Xie
+
 
