@@ -159,6 +159,10 @@ function moveBallAndStrobe(e){
 }
 ```
 
+The resulting program looks like:
+
+![Strobe Ball Program](../static/animationGames/strobe_ball.gif "Strobe Ball Program")
+
 
 
 
