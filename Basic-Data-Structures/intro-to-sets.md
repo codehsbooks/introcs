@@ -58,7 +58,7 @@ Since we know that our set only contains "Corgi", we know that numberOfDogs will
 
 ##### Searching the set
 
-Now sets are great and all, however they wouldn't be very useful if there was no way to check if an element is contained in a set. Luckily, we can use the contains() function to check to see if a set contains an element. For example, if we wanted to search through dogs to see if "Poodle" was contained in the set, we can use the code below :
+Now sets are great and all, however they wouldn't be useful if there was no way to check if an element is contained in a set. Luckily, we can use the contains() function to check to see if a set contains an element. For example, if we wanted to search through dogs to see if "Poodle" was contained in the set, we can use the code below :
 ```
 dogs.contains("Poodle");
 ```
