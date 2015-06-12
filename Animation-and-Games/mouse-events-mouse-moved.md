@@ -159,6 +159,10 @@ function moveBallAndStrobe(e){
 }
 ```
 
+The resulting program looks like:
+
+![](strobe_ball.gif)
+
 
 
 
