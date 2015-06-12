@@ -188,4 +188,4 @@ In the `start()` function, we call a `createCircles()` function which populates 
 
 The result looks like:
 
-![](crazy_balls.gif)
+![Crazy Balls Program](../static/basicDataStructures/crazy_balls.gif "Crazy Balls Program")
