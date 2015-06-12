@@ -75,7 +75,7 @@ Overall average exam grade: 86
 
 ## Flipping Coins
 
-In this example, 
+In this program, we use an array to store a large amount of coin flips.
 
 ```
 var NUM_FLIPS = 100;
@@ -111,3 +111,81 @@ function printArray(arr){
 }
 ```
 
+In the `start()` function, we first call our `flipCoins()` function. The `flipsCoins()` function populates a new array with coin flips. The resulting array returned by `flipCoins()` is then printed to the screen.
+
+In the `flipsCoins()` function, we start by initializing a new array called `flips`. We then create a for loop which loops from 0 up until `NUM_FLIPS`. In this particular example, we set the number of flips to 100. For each iteration in the for loop, we randomly push a value of either `"Heads"` or `"Tails"` into the `flips` array. `Randomizer.nextBoolean()` has a 50% chance of returning either true or false. Thus, we have a 50% chance of either pushing `"Heads"` or `"Tails"` into the array. We finish the function off by returning the array of coin flips.
+
+Here is an example of what might get printed. To save space, we have omitted the coin flips from indices 8 - 92.
+
+```
+0: Heads
+1: Heads
+2: Heads
+3: Heads
+4: Heads
+5: Heads
+6: Tails
+7: Heads
+.
+.
+.
+93: Heads
+94: Heads
+95: Heads
+96: Heads
+97: Heads
+98: Tails
+99: Heads
+```
+
+This is just one example of many. Since each of the coin flips have a 50% chance of either being `"Heads"` or `"Tails"`, these values will change each time you run the program.
+
+## Lots of Crazy Balls
+
+In this program, we create an array of circles. We use array iteration to make the circles flash and dance around the screen.
+
+```
+var RADIUS = 40;
+var NUM_CIRCLES = 7;
+var DELAY = 100;
+
+var circles = [];
+
+function start(){
+	createCircles();
+	setTimer(goCrazy, DELAY);
+}
+
+function createCircles(){
+	for(var i = 0; i < NUM_CIRCLES; i++){
+		var circle = new Circle(RADIUS);
+		updateCircle(circle);
+		add(circle);
+		circles.push(circle);
+	}
+}
+
+function goCrazy(){
+	for(var i = 0; i < circles.length; i++){
+		updateCircle(circles[i]);
+	}
+}
+
+function updateCircle(circle){
+	var x = Randomizer.nextInt(
+		RADIUS, getWidth() - RADIUS);
+	var y = Randomizer.nextInt(
+		RADIUS, getHeight() - RADIUS);
+	circle.setPosition(x, y);
+	circle.setColor(Randomizer.nextColor());
+}
+
+```
+
+Like all good programs, we start by declaring some useful constants at the top. We use `RADIUS` to represent the circle's radius, `NUM_CIRCLES` to represent the number of circles, and `DELAY` to represent the animation delay. We also need to make use of a global `circles` array, so we can access it across multiple functions.
+
+In the `start()` function, we call a `createCircles()` function which populates the `circles` array with circles. We then use a timer to call the `goCrazy()` function every `DELAY` milliseconds. The `goCrazy()` function randomly moves each of the circles in the array and makes them change color.
+
+The result looks like:
+
+![](crazy_balls.gif)
