@@ -143,7 +143,7 @@ var BALL_RADIUS = 30;
 var ball;
 
 function start() {
-    //Create the ball in the upper right corner
+    //Create the ball in the upper left corner
     ball = new Circle(BALL_RADIUS);
 	ball.setPosition(ball.getHeight()/2, ball.getWidth()/2);
 	ball.setColor(Randomizer.nextColor());
