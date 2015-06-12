@@ -48,7 +48,7 @@ Now that we have removed "German Shepard" from the set, all that remains in the 
 
 ##### Finding the size of a set
 
-In order to find out how many elements are in the set, we can use the .size() function. The following code would allow us to figure out the size of our dogs set and stores it in the variable numberOfDogs.
+In order to find out the number of elements in a set, we can use the .size() function. The following code would allow us to figure out the size of our dogs set and stores it in the variable numberOfDogs.
 
 ```
 var numberOfDogs = dogs.size();
