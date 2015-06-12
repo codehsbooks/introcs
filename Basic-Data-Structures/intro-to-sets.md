@@ -23,7 +23,7 @@ dogs.add("Corgi");
 dogs.add("German Shepard");
 ```
 
-Now, "Corgi" and "German Shepard" are contained in the set. We can check this by printing out the set using the code snippet below :
+Now, the set contains "Corgi" and "German Shepard". We can check this by printing out the set using the code snippet below :
 
 ```
 println(dogs);
