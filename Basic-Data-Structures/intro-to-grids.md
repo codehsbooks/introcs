@@ -57,7 +57,12 @@ After we run the above code snippet, every cell of our grid will contain "Golden
 </table>
 
 ###### Setting elements one at a time
-Now what if we want to set elements one at a time? In order to set an element in a grid, 
+Now what if we want to set elements one at a time? In order to set an element in a grid, we want to use the set() function. The set() function uses three arguments, row, column, and the value that you want to set the element to. For instance, if you want to set the element at row 1, column 1 of our dogs array to "Terrier":
+
+```
+
+```
+
 
 ###### Setting elements using arrays
 
