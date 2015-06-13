@@ -10,9 +10,9 @@ var dogs = new Grid(2, 3); //(rows, columns)
 
 #### Structure of a grid
 
-Before we can start using our grid, we need to understand the structure of the grid. Using our above example of a grid with 2 rows and 3 columns, the indexes of each element are laid out like below. 
+Before we can start using our grid, we need to understand the structure of the grid. Using our above example of a grid with 2 rows and 3 columns, the indexes of each element are laid out like below.
 
-**Note: The indexes are written as (row, column).**
+**Note: Remember that indexes start from 0, not 1.**
 <table>
   <tr>
     <td> (0, 0) </td>
@@ -57,7 +57,7 @@ After we run the above code snippet, every cell of our grid will contain "Golden
 </table>
 
 ###### Setting elements one at a time
-Now what if we want to set elements one at a time? 
+Now what if we want to set elements one at a time? In order to set an element in a grid, 
 
 ###### Setting elements using arrays
 
