@@ -8,12 +8,12 @@ Imagine that you are playing a game of tic-tac-toe. You know that we play the ga
     <td> O </td>
   </tr>
   <tr>
-    <td>  </td>
+    <td> X </td>
     <td> X </td> 
     <td>  </td>
   </tr>
   <tr>
-    <td> O </td>
+    <td>  </td>
     <td> O </td> 
     <td> X </td>
   </tr>
