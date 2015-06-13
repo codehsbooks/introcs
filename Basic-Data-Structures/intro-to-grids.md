@@ -80,6 +80,8 @@ After running the above line of code, our grid of dogs will now look like:
 
 ###### Setting elements using arrays
 
+
+
 ##### Accessing elements in a grid
 
 
