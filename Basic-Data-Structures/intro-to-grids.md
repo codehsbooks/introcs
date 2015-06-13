@@ -59,7 +59,7 @@ There are three ways that we can set elements in our grid:
 
 * 
 ###### Setting them all to be the same
-Say we wanted to set all of the elements of our "dogs" grid to be equal to "Golden Retriever". We can do this by using the init() function.
+Say we wanted to set all the elements of our "dogs" grid to be equal to "Golden Retriever". We can do this by using the init() function.
 ```
 dogs.init("Golden Retriever");
 ```
