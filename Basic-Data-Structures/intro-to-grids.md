@@ -16,6 +16,8 @@ Since we haven't added anything to this grid yet, all the elements are still und
 
 ##### Setting elements in a grid
 
+
+
 ##### Accessing elements in a grid
 
 
