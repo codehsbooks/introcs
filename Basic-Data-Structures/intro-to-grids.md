@@ -101,7 +101,7 @@ After running the above line of code, our grid of dogs will now look like:
 ###### Setting elements using arrays
 Lastly, we can set all the elements of our grid using arrays. 
 ```
-newGrid.initFromArray([
+dogs.initFromArray([
 	["Golden Retriever", "Labrador", "Poodle"],	  // 0th row
 	["German Shepard", "Alaskan Husky", "Beagle"],   // 1st row
 ]);
@@ -126,8 +126,8 @@ Recall that we can represent arrays using brackets. For example, [1, 2, 3] would
 Accessing elements in a grid is similar to setting elements in a grid. Here, we use the get() function to access elements. The get() function takes in the row and the column as arguments in that order. For example, if we wanted to print out the dog that is in the second row, third column, we can use the code:
 
 ```
-var dog = grid.get(1, 2); //Recall that rows and columns are counted starting from 0.
-println(dog);
+var myDog = dogs.get(1, 2); //Recall that rows and columns are counted starting from 0.
+println(myDog);
 ```
 The above code snippet will print out "Beagle" to the console.
 
