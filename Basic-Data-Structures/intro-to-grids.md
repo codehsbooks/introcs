@@ -130,10 +130,3 @@ var myDog = dogs.get(1, 2); //Recall that rows and columns are counted starting 
 println(myDog);
 ```
 The above code snippet will print out "Beagle" to the console.
-
-
-
-
-
-
-
