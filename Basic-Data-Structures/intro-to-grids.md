@@ -19,9 +19,9 @@ Imagine that you are playing a game of tic-tac-toe. You know that we play the ga
   </tr>
 </table>
 
-This is simple to draw out on a sheet of paper, but how would you represent this game of tic-tac-toe using code? While it is possible to represent this game using an array, it is simpler to use a data structure we call a **grid**.
+This is simple to draw out on a sheet of paper, but how would you represent this game of tic-tac-toe using code? While it is possible to represent this game using an array, it is simpler to use a data structure we call a **grid**. We may also call them 2D arrays, multidimensional arrays, tables, or matrices.
 
-
+Grids are great for representing data that are laid out in two dimensions, like a tic-tac-toe game, or a game of chess.
 
 #### Creating a new grid
 
@@ -53,7 +53,7 @@ Before we can start using our grid, we need to understand the structure of the g
 
 ##### Setting elements in a grid
 
-Since we haven't set any elements in our grid, all of the elements in our grid are set to "undefined".
+Since we haven't set any elements in our grid, all the elements in our grid are set to "undefined".
 
 There are three ways that we can set elements in our grid:
 
@@ -123,6 +123,7 @@ Recall that we can represent arrays using brackets. For example, [1, 2, 3] would
 
 ##### Accessing elements in a grid
 
+Accessing elements in an array is 
 
 
 
