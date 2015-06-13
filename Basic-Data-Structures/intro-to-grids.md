@@ -1,5 +1,26 @@
 ## Intro to Grids
 
+Imagine that you are playing a game of tic-tac-toe. You know that we play the game on a 3x3 grid. 
+<table>
+  <tr>
+    <td> X </td>
+    <td> O </td>
+    <td> O </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td> X </td> 
+    <td>  </td>
+  </tr>
+  <tr>
+    <td>   </td>
+    <td> O </td> 
+    <td> X </td>
+  </tr>
+</table>
+
+This is simple to draw out on a sheet of paper, but how would you represent this game of tic-tac-toe using code? While it is possible to represent this game using a single array, it is be much simpler to represent this using a data structure we call a ***grid***.
+
 #### Creating a new grid
 
 Let's say that we want to make a new grid named "dogs" that has 2 rows and 3 columns. We can do this like so:
@@ -24,7 +45,6 @@ Before we can start using our grid, we need to understand the structure of the g
     <td> (1, 1) </td> 
     <td> (1, 2) </td>
   </tr>
-  
 </table>
 
 #### Using Grids
