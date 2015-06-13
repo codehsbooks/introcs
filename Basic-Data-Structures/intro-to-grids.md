@@ -43,6 +43,7 @@ Say we wanted to set all of the elements of our "dogs" grid to be equal to "Gold
 dogs.init("Golden Retriever");
 ```
 After we run the above code snippet, every cell of our grid will contain "Golden Retriever".
+
 <table>
   <tr>
     <td> Golden Retriever </td>
@@ -57,12 +58,25 @@ After we run the above code snippet, every cell of our grid will contain "Golden
 </table>
 
 ###### Setting elements one at a time
-Now what if we want to set elements one at a time? In order to set an element in a grid, we want to use the set() function. The set() function uses three arguments, row, column, and the value that you want to set the element to. For instance, if you want to set the element at row 1, column 1 of our dogs array to "Terrier":
+Now what if we want to set elements one at a time? In order to set an element in a grid, we want to use the set() function. The set() function uses three arguments, row, column, and the value that you want to set the element to. For instance, if you want to set the element at row 1, column 1 of our dogs array to "Labrador":
 
 ```
-
+dogs.set(1, 1, "Labrador");
 ```
+After running the above line of code, our grid of dogs will now look like:
 
+<table>
+  <tr>
+    <td> Golden Retriever </td>
+    <td> Golden Retriever </td>
+    <td> Golden Retriever </td>
+  </tr>
+  <tr>
+    <td> Golden Retriever </td>
+    <td>Labrador</td> 
+    <td> Golden Retriever </td>
+  </tr>
+</table>
 
 ###### Setting elements using arrays
 
