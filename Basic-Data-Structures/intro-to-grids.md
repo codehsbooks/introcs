@@ -97,7 +97,7 @@ After we run this code, our grid of dogs should look like:
     <td> Beagle </td>
   </tr>
 </table>
-Recall that we can represent arrays using brackets. For example, [1, 2, 3] would be an array. To initiate a grid using an array, each element in the array needs to also be an array. For example, if we initiate a grid using [[0, 1], [2, 3]], [0, 1] would represent the first row which contains 0 and 1 and so on.
+Recall that we can represent arrays using brackets. For example, [1, 2, 3] would be an array. To initiate a grid using an array, each element in the array needs to also be an array. For example, if we initiate a grid using [[0, 1], [2, 3]], we know that [0, 1] represents the first row and [2, 3] represents the second row.
 
 ##### Accessing elements in a grid
 
