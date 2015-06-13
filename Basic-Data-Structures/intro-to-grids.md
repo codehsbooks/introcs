@@ -13,7 +13,7 @@ Imagine that you are playing a game of tic-tac-toe. You know that we play the ga
     <td>  </td>
   </tr>
   <tr>
-    <td>   </td>
+    <td> O </td>
     <td> O </td> 
     <td> X </td>
   </tr>
