@@ -19,7 +19,9 @@ Imagine that you are playing a game of tic-tac-toe. You know that we play the ga
   </tr>
 </table>
 
-This is simple to draw out on a sheet of paper, but how would you represent this game of tic-tac-toe using code? While it is possible to represent this game using a single array, it is be much simpler to represent this using a data structure we call a ***grid***.
+This is simple to draw out on a sheet of paper, but how would you represent this game of tic-tac-toe using code? While it is possible to represent this game using an array, it is simpler to use a data structure we call a **grid**.
+
+
 
 #### Creating a new grid
 
