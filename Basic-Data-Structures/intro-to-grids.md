@@ -12,6 +12,8 @@ var dogs = new Grid(2, 3);
 
 Since we haven't added anything to this grid yet, all the elements are still undefined.
 
+
+
 #### Using Grids
 
 ##### Setting elements in a grid
