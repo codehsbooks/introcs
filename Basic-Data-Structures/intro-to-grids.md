@@ -12,9 +12,7 @@ var dogs = new Grid(2, 3);
 
 Since we haven't added anything to this grid yet, all the elements are still undefined.
 
-|(0, 0) | (0, 1) | (0, 3) |
-|---|---|---|---|
-| (1, 0)| (1, 3) | (1, 2) |
+
 
 
 #### Using Grids
