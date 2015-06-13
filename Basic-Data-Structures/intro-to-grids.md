@@ -19,7 +19,7 @@ Imagine that you are playing a game of tic-tac-toe. You know that we play the ga
   </tr>
 </table>
 
-This is simple to draw out on a sheet of paper, but how would you represent this game of tic-tac-toe using code? While it is possible to represent this game using an array, it is simpler to use a data structure we call a **grid**. We may also call them 2D arrays, multidimensional arrays, tables, or matrices.
+Tic-tac-toe is simple to draw out on a sheet of paper, but how would you represent this game using code? While it is possible to represent this game using an array, it is simpler to use a data structure we call a **grid**. We may also call them 2D arrays, multidimensional arrays, tables, or matrices.
 
 Grids are great for representing data that are laid out in two dimensions, like a tic-tac-toe game, or a game of chess.
 
