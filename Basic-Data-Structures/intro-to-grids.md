@@ -1,6 +1,6 @@
 ## Intro to Grids
 
-Imagine that you are playing a game of tic-tac-toe. You know that we play the game on a 3x3 grid. 
+Imagine that you are playing a game of tic-tac-toe.
 <table>
   <tr>
     <td> X </td>
