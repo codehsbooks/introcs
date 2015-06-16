@@ -66,7 +66,70 @@ This will print out the sum, 46, to the console.
 
 Now let's try another example.
 
-Finding Waldo!
+### Finding Waldo!
+
+Let's say that we are given a grid of random objects, and we have to figure out which row and which column waldo is in.
+For example,
+
+<table>
+  <tr>
+    <td> Table </td>
+    <td> Bob </td>
+    <td> Door </td>
+  </tr>
+  <tr>
+    <td> John </td>
+    <td> Apple </td> 
+    <td> Waldo </td>
+  </tr>
+  <tr>
+    <td> Karel </td>
+    <td> Pencil </td> 
+    <td> Book </td>
+  </tr>
+</table>
+
+Like the example above, we will be using the nested for-loop structure.
+
+```
+function findWaldo(grid){
+    for(var row = 0; row < grid.numRows(); row++){ 
+        for(var column = 0; column < grid.numCols(); column++){
+            //do something
+        }
+    }
+}
+```
+When approaching this problem, there are two questions that we need to ask. First, "How will we find Waldo?" and secondly, "What should it do once we find Waldo?".
+
+We already know that we can access elements in the grid using get(), so we can compare the elements to "Waldo" using "==". After we find Waldo, we can print out the row and column that we found waldo in using println(). Just remember that since rows and columns start from 0, we have to add 1 to both the column and the row before printing out the values.
+```
+if(grid.get(row, column) == "Waldo"){
+    var waldoRow = row + 1;
+    var waldoCol = column + 1;
+    println("Waldo is in row " + waldoRow + ", column " + waldoCol + ".");
+}
+```
+
+Once we put everything together, our function should end up as:
+```
+function findWaldo(grid){
+    for(var row = 0; row < grid.numRows(); row++){ 
+        for(var column = 0; column < grid.numCols(); column++){
+            if(grid.get(row, column) == "Waldo"){
+                var waldoRow = row + 1;
+                var waldoCol = column + 1;
+                println("Waldo is in row " + waldoRow + ", column " + waldoCol + ".");
+            }
+        }
+    }
+}
+```
+Using our example grid, our function prints out 
+```
+Waldo is in row 2, column 3.
+```
+
 
 
 
