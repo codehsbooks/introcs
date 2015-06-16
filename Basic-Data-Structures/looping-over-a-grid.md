@@ -20,7 +20,9 @@ Let's say we are given a grid of numbers like below.
   </tr>
 </table>
 
-We want to find the sum of all these numbers. Now how do we accomplish this? We would have to loop over the array, but what type of loop would we use? To access a number in the grid, we would need two variables that point to the row and the column. Thus, the best way to accomplish this task is to use two nested for-loops, one for the row and one for the column.
+### Finding the sum
+
+We want to create a function that will print the sum of all these numbers. Now how do we accomplish this? We would have to loop over the array, but what type of loop would we use? To access a number in the grid, we would need two variables that point to the row and the column. Thus, the best way to accomplish this task is to use two nested for-loops, one for the row and one for the column.
 
 The loop structure we would want to use is as follows:
 
@@ -43,4 +45,28 @@ Next, we need to add a line that will access the elements in the grid. As shown 
 ```
 sum += grid.get(row, column);
 ```
-The end result 
+Of course we still need to print out our sum to the console. We can just use a simple print statement:
+```
+println(sum);
+```
+When put together, our finished function should look something like this:
+```
+function printSum(grid){
+    var sum = 0;
+    for(var row = 0; row < grid.numRows(); row++){ 
+        for(var column = 0; column < grid.numCols(); column++){
+            sum += grid.get(row, column);
+        }
+    }
+    println(sum);
+}
+```
+
+This will print out the sum, 46, to the console.
+
+Now let's try another example.
+
+Finding Waldo!
+
+
+
