@@ -89,7 +89,7 @@ For example,
   </tr>
 </table>
 
-Like the example above, we will be using the nested for-loop structure.
+Like above, we will be using the nested for-loop structure.
 
 ```
 function findWaldo(grid){
