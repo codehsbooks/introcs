@@ -25,9 +25,11 @@ We want to find the sum of all these numbers. Now how do we accomplish this? We 
 The loop structure we would want to use is as follows:
 
 ```
-for(var row = 0; row < grid.numRows(); row++){ //this loops over the rows
-    for(var column = 0; column < grid.numCols(); column++){ //this loops over the columns
-        //do something
+function printSum(grid){
+    for(var row = 0; row < grid.numRows(); row++){ //this loops over the rows
+        for(var column = 0; column < grid.numCols(); column++){ //this loops over the columns
+            //do something
+        }
     }
 }
 ```
@@ -37,8 +39,8 @@ Thus, all we would have to do is create a variable to hold our sum and fill out 
 var sum = 0;
 ```
 
-As shown in the previous section, we can use the row and the column to pinpoint an element in the grid using get(). Thus, the body of the for loop will contain:
+Next, we need to add a line that will access the elements in the grid. As shown in the previous section, we can use the row and the column to pinpoint an element in the grid using get(). We can then add the element to our sum. Thus, the body of the for loop will contain:
 ```
 sum += grid.get(row, column);
 ```
-
+The end result 
