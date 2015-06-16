@@ -32,4 +32,4 @@ for(var row = 0; row < grid.numRows(); row++){ //this loops over the rows
 }
 ```
 
-Thus, all we would have to do is create a variable to hold our sum and fill out the body of the for-loop. 
+Thus, all we would have to do is create a variable to hold our sum and fill out the body of the for-loop. As shown in the previous section, we can use the row and the column to pinpoint an element in the grid using 
