@@ -32,4 +32,4 @@ for(var row = 0; row < grid.numRows(); row++){ //this loops over the rows
 }
 ```
 
-Thus, if we wanted to find the sum of the numbers in the grid, we would use 
+Thus, all we would have to do is create a variable to hold our sum and fill out the body of the for-loop. 
