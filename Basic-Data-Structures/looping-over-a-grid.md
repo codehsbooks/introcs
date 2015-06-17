@@ -104,7 +104,7 @@ When approaching this problem, there are two questions that we need to ask. Firs
 
 We already know that we can access elements in the grid using get(), so we can compare the elements to "Waldo" using "==". 
 
-After we find Waldo, we can print out the row and column that we found waldo in using println(). Just remember that since rows and columns start from 0, we have to add 1 to both the column and the row before printing out the values.
+After we find Waldo, we can print out the row and column that we found Waldo in using `println()`. Just remember that since rows and columns start from 0, we have to add 1 to both the column and the row before printing out the values.
 ```
 if(grid.get(row, column) == "Waldo"){
     var waldoRow = row + 1;
