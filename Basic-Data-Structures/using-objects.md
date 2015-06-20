@@ -14,3 +14,10 @@ menu["French fries"] = 2;
 
 Now, our menu looks something like this:
 
+|ITEM | PRICE|
+|---|---|
+|Soda | 1 |
+|Hot dog | 2 |
+|Hamburger | 3 |
+|French fries | 2 |
+
