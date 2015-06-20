@@ -23,7 +23,7 @@ Now, our menu looks something like this:
 
 #### Printing out the menu
 
-Let's say that we want to print out our menu to the console.  Of course, we can print out our menu one by one. For example, we could do this:
+We want to print out our menu to the console.  Of course, we can print out our menu one by one. For example, we could do this:
 ```
 println("Soda costs $" + menu["Soda"]);
 println("Hot dog costs $" + menu["Hot dog"]);
