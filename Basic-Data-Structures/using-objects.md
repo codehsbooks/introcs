@@ -55,5 +55,34 @@ French fries
 ```
 Now we are almost done! All we need to do is add the prices to the items. Since we are looping through the keys of an object, we can use the keys to look up their respective values. Using what we learned from the last section, we know that we can look up the prices of our items using:
 ```
-for(
+var price = menu[item];
 ```
+Now, all we have to do is change our print statement so that it contains the price.
+```
+println(item + ": $" + price);
+```
+Once we put everything together, this is the resulting code.
+```
+function start(){
+	var menu = {};
+
+    menu["Soda"] = 1;
+    menu["Hot dog"] = 2;
+    menu["Hamburger"] = 3;
+    menu["French fries"] = 2;
+	
+	for(var item in menu){
+		var price = menu[item];
+		println(item + ": $" + price);
+	}
+}
+```
+This code prints out the following menu to the console.
+```
+Soda: $1
+Hot dog: $2
+Hamburger: $3
+French fries: $2
+```
+
+
