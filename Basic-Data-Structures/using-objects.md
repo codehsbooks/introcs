@@ -53,7 +53,7 @@ Hot dog
 Hamburger
 French fries
 ```
-Now we are almost done! All we need to do is add the prices to the items. Since we are looping through the keys of an object, we can use the keys to look up their respective values. Using what we learned from the last section, we know that we can look up the prices of our items using:
+We are almost done printing out our menu! All we need to do is add the prices to the items. Since we are looping through the keys of an object, we can use the keys to look up their respective values. Using what we learned from the last section, we know that we can look up the prices of our items using:
 ```
 var price = menu[item];
 ```
