@@ -32,7 +32,7 @@ println("French fries costs $" + menu["French fries"]);
 ```
 Printing out our menu one item at a time takes a lot of effort, and the code would have to change whenever we want to make a change to our menu. A better way of printing out our menu would be to loop through our menu. 
 
-Yet, how would we accomplish this? For loops would not work, since we cannot use an integer to access values in our menu. A while loop would not work either, since there is no condition that we could work with. Thus, to loop over an object, we have no choice but to use a new type of loop, a for-each loop. 
+How would we accomplish this? For loops would not work, since we cannot use an integer to access values in our menu. A while loop would not work either, since there is no condition that we could work with. Thus, to loop over an object, we have no choice but to use a new type of loop, a for-each loop. 
 
 A for-each loop allows us to run a segment of code for each key in an object. A for each loop is structured like so:
 ```
