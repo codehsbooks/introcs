@@ -40,7 +40,7 @@ for(var ___ in ___){
     //do something
 }
 ```
-The first blank refers to the keys in the object and the second blank will contain the object that you want to loop over. For example, if we wanted to get the items in our menu, we would do so like this:
+The first blank will contain a name for the keys in the object and the second blank will contain the object that you want to loop over. For example, if we wanted to get the items in our menu, we would do so like this:
 ```
 for(var item in menu){
     println(item);
@@ -53,4 +53,7 @@ Hot dog
 Hamburger
 French fries
 ```
-
+Now we are almost done! All we need to do is add the prices to the items. Since we are looping through the keys of an object, we can use the keys to look up their respective values. Using what we learned from the last section, we know that we can look up the prices of our items using:
+```
+for(
+```
