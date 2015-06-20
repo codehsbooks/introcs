@@ -34,7 +34,7 @@ Printing out our menu one item at a time takes a lot of effort, and the code wou
 
 Yet, how would we accomplish this? For loops would not work, since we cannot use an integer to access elements in our menu. A while loop would not work either, since there is no condition that we could work with. Thus, to loop over an object, we have no choice but to use a new type of loop, a for-each loop. 
 
-A for-each loop allows us to run a segment of code for each element in an object. A for each loop is structured like so:
+A for-each loop allows us to run a segment of code for each key in an object. A for each loop is structured like so:
 ```
 for(var ___ in ___){
     //do something
