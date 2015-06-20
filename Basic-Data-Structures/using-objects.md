@@ -57,7 +57,7 @@ As you can see, we are already almost done printing out our menu. All we need to
 ```
 var price = menu[item];
 ```
-We can change our print statement so that it contains the price.
+We can easily change our print statement so that it contains the price.
 ```
 println(item + ": $" + price);
 ```
@@ -77,7 +77,7 @@ function start(){
 	}
 }
 ```
-This code prints out the following menu to the console.
+The code above will print out the following menu to the console.
 ```
 Soda: $1
 Hot dog: $2
