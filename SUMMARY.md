@@ -41,7 +41,6 @@
     * [Drawing Lines](Animation-and-Games/drawing-lines.md)
     * [Key Events](Animation-and-Games/key-events.md)
     * [Crazy Ball Game](Animation-and-Games/crazy-ball-game.md)
-    * [Breakout](Animation-and-Games/breakout.md)
 * [Basic Data Structures](Basic-Data-Structures/README.md)
     * [Intro to Lists/Arrays](Basic-Data-Structures/intro-to-lists-arrays.md) 
     * [Indexing into an Array](Basic-Data-Structures/indexing-into-an-array.md)
