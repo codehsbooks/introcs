@@ -94,4 +94,4 @@ function start() {
     mouseDragMethod(drag);
 }
 ```
-![](Screen Shot 2015-06-29 at 9.25.00 PM.png)
+![Tic Tac Toe](../static/animationGames/drawing_lines_tic_tac_toe.png "Tic Tac Toe")
