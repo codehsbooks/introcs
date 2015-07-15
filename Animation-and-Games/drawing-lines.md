@@ -4,7 +4,7 @@ Now that we know how to use mouse events with clicking and moving a mouse, we're
 ##The end goal
 When the user clicks and drags the mouse within the canvas, the cursor will draw some lines. It's easiest to break this problem down into parts. 
 
-![](Screen Shot 2015-06-29 at 8.56.58 PM.png)
+![Drawing Lines](../static/animationGames/drawing_lines.png "Drawing Lines")
 
 ##Mouse events
 We will need to make use of some mouse events. Specifically, we want to respond when the user presses the mouse down and when the user drags the mouse. We can have two functions, one for each of those actions: 
