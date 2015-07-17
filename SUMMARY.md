@@ -53,6 +53,3 @@
     * [Intro to Sets](Basic-Data-Structures/intro-to-sets.md)
     * [Intro to Grids](Basic-Data-Structures/intro-to-grids.md)
     * [Looping over a Grid](Basic-Data-Structures/looping-over-a-grid.md)
-* [testing scratchpad](test.md)
-
-
