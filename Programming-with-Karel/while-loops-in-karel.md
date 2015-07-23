@@ -27,5 +27,3 @@ while(frontIsClear()) {
 If the front is clear when Karel starts out, she will move forward once. Then, we'll go back to the start of the loop and ask, "Is the front still clear?" If yes, then Karel will move again.
 
 We'll keep repeating until we ask "Is the front still clear?" and the answer is no, at which point Karel will stop moving. This same logic will work on worlds of different sizes, too! 
-
-So, while the condition "you enjoy coding" is true, read on!
