@@ -1,7 +1,6 @@
 # Introduction to Programming with Karel the Dog
 
-In this chapter we are going to introduce you to programming with Karel the Dog. Programming is the process of
-giving instructions to a computer. Giving a list of instructions to the computer is similar to the way you can give commands to a dog.
+Programming is the process of giving instructions to a computer. Giving a list of instructions to the computer is similar to the way you can give commands to a dog. In this chapter, you will learn the basics of programming with Karel the Dog. 
 
 ### What is Karel?
 
