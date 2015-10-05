@@ -4,13 +4,13 @@
 
 An introduction to computer science. [Read the book](https://codehs.gitbooks.io/introcs/content/) online at GitBook!
 
-- Programming with Karel
+- [Programming with Karel](Programming-with-Karel/README.md)
 
-- Basic JavaScript and Graphics
+- [Basic JavaScript and Graphics](Basic-JavaScript-and-Graphics/README.md)
 
-- Animation and Games
+- [Animation and Games](Animation-and-Games/README.md)
 
-- Basic Data Structures
+- [Basic Data Structures](Basic-Data-Structures/README.md)
 
 
 ### Contributors
