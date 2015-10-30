@@ -1,15 +1,15 @@
 # Top Down Design and Decomposition in Karel
 
-Now that we have most of the tools we need, let's focus on the structure of our program.  Recall that we have commands and functions as the building blocks of our program.  Commands go inside functions, and functions make up our program.  So how do we effectively build programs using functions?
+Now that we have most of the tools we need, let's focus on the structure of building a program.  Recall that we have commands and methods as the building blocks of our program.  Commands go inside of methods, and methods can be combined to build a program.  So how do we effectively build programs?
 
-## When Do We Use a Function?
-When we defined functions, we said that functions are used to break down the problem into little bits and make our program more readable.  Tucking away lists of commands inside of a named function makes the program much easier to read.  Note that while all code must be in some function, some of the commands may be perfectly acceptable to put in the start function.
+## When to use a Method?
+Recall that methods are used to break down a problem into smaller parts. Grouping a series of commands into named methods also makes the program much easier to read.
 
-Here are some guidelines for when to put a group of commands into their own function.
+There are a few basic principles to follow to know when to create a new method:
 
 1. The group of commands accomplishes a specific task
 2. The specific task is used more than once
-3. The specific task solves a smaller problem, but helps solve the bigger problem.  If this is the case, it is ok if the function is only used once.
+3. The specific task solves a smaller problem, but helps solve the bigger problem.  If this is the case, it is ok if the method is only used once.
 
 This leads us to the next discussion - what does it mean to have a specific task or a smaller problem?
 
