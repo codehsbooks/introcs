@@ -62,7 +62,7 @@ Say that you are trying to decide whether to wear a coat today. You'll wear your
 ```
 var isRaining = true;
 var isCold = false;
-println(isRaining && isCold);  // it's not cold, but it is raining, so it prints true
+println(isRaining || isCold);  // it's not cold, but it is raining, so it prints true
 ```
 
 For variables `p` and `q` that can be `true` or `false`:
