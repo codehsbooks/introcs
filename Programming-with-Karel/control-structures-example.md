@@ -6,10 +6,10 @@ Control structures allow us to shape the flow of our programs and write code tha
 
 There are two main categories of control structures that we have learned so far. The first group, if statements and if-else statements, ask questions about the world. The second group, for loops and while loops, repeat patterns of code.
 
-|Ask Questions     | Repeat Code|
-|     --           |    --      |
-|If Statement      |   For Loop |
-|If-Else Statement | While Loop |
+| Ask Questions | Repeat Code   |
+| ------------- | ------------- |
+| If Statement  | For Loop  |
+| If/Else Statement  | While Loop  |
 
 ![Karel needs to place tennis balls](../static/karel/karel-put-ball.png)
 
