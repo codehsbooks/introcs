@@ -40,7 +40,7 @@ For example, if it is 6:30am AND it is a school day, you should wake up. You can
 ```
 var sixThirty = true;
 var schoolDay = false;
-println(sixThirty && schoolDay);  // both values are not true, so it prints "false"
+println(sixThirty && schoolDay);  // because both values aren't true, it prints "false"
 ```
 
 For variables `p` and `q` that can be `true` or `false`:
