@@ -51,7 +51,7 @@ Notice that `tenAdded` is not given a normal value. Instead, we are setting it e
 that the `tenAdded` variable will hold the result of whatever the function call `addTen(7)` returns. We know that
 `addTen(7)` will return 17, so `tenAdded` will be `17`.
 
-![addTen function](../static/javaScript/returns_addTen_return.png "addTen function")
+![addTen function](../static/javaScript/returns_tenAdded.png "addTen function")
 
 ## Multiple Parameters With a Return Value
 Return values work in many situations. For example, we can rewrite the `add` function from the previous section
