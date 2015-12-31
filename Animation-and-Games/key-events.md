@@ -115,7 +115,7 @@ function start(){
 
 // This is the callback function named keyDown
 function keyDown(e) {
-    for(var i = 0; i <= 9; i++){
+    for(var i = 0; i < = 9; i++){
         if (e.keyCode == Keyboard.digit(i)) {
             println("You pressed the " + i + " key.")
         }
