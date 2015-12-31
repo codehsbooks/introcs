@@ -27,7 +27,7 @@ The first part of a for loop initializes some variable. In the example above, `v
 #### Part 2: Condition
 
 The second part of a for loop tests a condition. If the condition is true, the code within the for loop executes. If the condition is false, the code within the for loop is skipped. In the example above, 
-```i < 3``` compares the current value of our variable `i` to determine if it is less than `3`. Each time `i` is less than `3`, the value of `i` will be printed to the screen. This happens three times.
+$$i < 3$$ compares the current value of our variable `i` to determine if it is less than `3`. Each time `i` is less than `3`, the value of `i` will be printed to the screen. This happens three times.
 
 #### Part 3: Increment/Decrement
 
@@ -37,14 +37,14 @@ The third part of a for loop changes the variable after each time the loop runs.
 
 What happens when we run the example for loop? What gets printed to the screen. 
 
-First, our loop variable `i` is initially set to `0`. Next, the condition part of the loop is evaluated. Is ``i < 3``
-? Since `i` is currently set to `0`, and `0` is indeed less than `3`, the condition ``i < 3`` is *true*. Thus, the code within the for loop is executed. `0` is printed to the screen. After this, `i` is incremented. `i++` means we add 1 to `i`, so `i` is now set to `1`.
+First, our loop variable `i` is initially set to `0`. Next, the condition part of the loop is evaluated. Is $$i < 3$$
+? Since `i` is currently set to `0`, and `0` is indeed less than `3`, the condition $$i < 3$$ is *true*. Thus, the code within the for loop is executed. `0` is printed to the screen. After this, `i` is incremented. `i++` means we add 1 to `i`, so `i` is now set to `1`.
 
-Since `i` is now set to `1`, the condition ``i < 3`` is re-evaluated. It is still *true*. `1` is now printed to the screen. `i` is incremented again and becomes set to `2`.
+Since `i` is now set to `1`, the condition $$i < 3$$ is re-evaluated. It is still *true*. `1` is now printed to the screen. `i` is incremented again and becomes set to `2`.
 
-The condition ``i < 3`` is re-evaluated. Since `i` is now set to `2`, our condition is still *true*. `2` is printed to the screen. `i` is incremented again and becomes set to `3`.
+The condition $$i < 3$$ is re-evaluated. Since `i` is now set to `2`, our condition is still *true*. `2` is printed to the screen. `i` is incremented again and becomes set to `3`.
 
-Finally, when the condition ``i < 3`` is re-evaluated, our condition is *false*. 3 is not less than 3, so the code within the for loop is skipped. Nothing else gets printed. The for loop is done.
+Finally, when the condition $$i < 3$$ is re-evaluated, our condition is *false*. 3 is not less than 3, so the code within the for loop is skipped. Nothing else gets printed. The for loop is done.
 
 Thus, our output would be:
 
