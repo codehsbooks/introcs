@@ -53,7 +53,7 @@ function indexOf(arr, str){
 
 The `indexOf()` function takes in an array, `arr`, and a string to search for within the array, `str`. We begin by looping through the contents of the array using for loop iteration. On each iteration, we get the current element using `arr[i]` and store it into a variable called `cur`. We then check to see if the current element, `cur`, is equal to the string we are searching for, `str`. If it is, we return the index as kept track by our for loop variable, `i`. 
 
-However, if the element is not found after searching through the entire array, we return -1. Why -1? Because a array's index can't be negative! This tells us that the element is not in the array at all.
+However, if the element is not found after searching through the entire array, we return -1. Why -1? Because an array's index can't be negative! This tells us that the element is not in the array at all.
 
 ## Putting It All Together
 
