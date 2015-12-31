@@ -27,7 +27,7 @@ The first part of a for loop initializes some variable. In the example above, `v
 #### Part 2: Condition
 
 The second part of a for loop tests a condition. If the condition is true, the code within the for loop executes. If the condition is false, the code within the for loop is skipped. In the example above, 
-$$i < 3$$ compares the current value of our variable `i` to determine if it is less than `3`. Each time `i` is less than `3`, the value of `i` will be printed to the screen. This happens three times.
+"**i < 3**" compares the current value of our variable `i` to determine if it is less than `3`. Each time `i` is less than `3`, the value of `i` will be printed to the screen. This happens three times.
 
 #### Part 3: Increment/Decrement
 
