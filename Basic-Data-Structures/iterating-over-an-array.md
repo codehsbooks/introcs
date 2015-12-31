@@ -113,7 +113,7 @@ function printArray(arr){
 
 In the `start()` function, we first call our `flipCoins()` function. The `flipsCoins()` function populates a new array with coin flips. The resulting array returned by `flipCoins()` is then printed to the screen.
 
-In the `flipsCoins()` function, we start by initializing a new array called `flips`. We then create a for loop which loops from 0 up until `NUM_FLIPS`. In this particular example, we set the number of flips to 100. For each iteration in the for loop, we randomly push a value of either `"Heads"` or `"Tails"` into the `flips` array. `Randomizer.nextBoolean()` has a 50% chance of returning either true or false. Thus, we have a 50% chance of either pushing `"Heads"` or `"Tails"` into the array. We finish the function off by returning the array of coin flips.
+In the `flipsCoins()` function, we start by initializing a new array called `flips`. We then create a for loop which loops from 0 up until `NUM_FLIPS`. In this particular example, we set the number of flips to 100. For each iteration in the for loop, we randomly push a value of either "Heads" or "Tails" into the `flips` array. `Randomizer.nextBoolean()` has a 50% chance of returning either true or false. Thus, we have a 50% chance of either pushing "Heads" or "Tails" into the array. We finish the function off by returning the array of coin flips.
 
 Here is an example of what might get printed. To save space, we have omitted the coin flips from indices 8 - 92.
 
@@ -138,7 +138,7 @@ Here is an example of what might get printed. To save space, we have omitted the
 99: Heads
 ```
 
-This is just one example of many. Since each of the coin flips have a 50% chance of either being `"Heads"` or `"Tails"`, these values will change each time you run the program.
+This is just one example of many. Since each of the coin flips have a 50% chance of either being "Heads" or "Tails", these values will change each time you run the program.
 
 ## Lots of Crazy Balls
 
