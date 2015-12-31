@@ -82,7 +82,7 @@ Initiating countdown:
 Instead of incrementing or decrementing `i` by 1, we will increment `i` by adding 2 in this example instead. This allows us to count up by two each time.
 
 ```
-for(var i = 0; i <= 20; i += 2){
+for(var i = 0; i < = 20; i += 2){
 	println(i);
 }
 ```
