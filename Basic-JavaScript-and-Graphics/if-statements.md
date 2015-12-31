@@ -57,9 +57,9 @@ In the previous examples, we have been using comparison operators in our boolean
 ```
 var grade = readInt("What grade did you get? ");
 if (grade >= 80 && grade < 90) {
-    grade = "You got an B!";
+    grade = "You got a B!";
 } else {
-    grade = "You did not get an B.";
+    grade = "You did not get a B.";
 }
 println(grade);
 ```
