@@ -102,7 +102,7 @@ Output:
 
 ### For Loop Sum Program
 
-Here is a program which sums all numbers from 1 to 100. The for loop adds the numbers 1+2+3+4+5+6+.....+98+99+100. Since this program uses global variables, we can easily change the `MIN` and `MAX` values used in our sum without having to touch the for loop at all.
+Here is a program which sums all numbers from 1 to 100. The for loop adds the numbers 1+2+3+4+5+6+.....+98+99+100. Since this program uses global constants, we can easily change the `MIN` and `MAX` values used in our sum without having to touch the for loop at all.
 
 ```
 // This program adds the numbers from 1
