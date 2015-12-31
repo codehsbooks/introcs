@@ -12,9 +12,9 @@ var list = ["bread", "eggs", "milk", "cookies", "bananas",
 	"powdered sugar", "lime"];
 ```
 
-Suppose you want to find the location of where `"bread"` occurs in this array. Or suppose you want to find the position of where `"paper towels"` occurs in the array. How can you do this without having to manually count through each position of the array yourself?
+Suppose you want to find the location of where "bread" occurs in this array. Or suppose you want to find the position of where "paper towels" occurs in the array. How can you do this without having to manually count through each position of the array yourself?
 
-You will recall that each individual location or position in an array is called an index. The starting index in an array is always 0. Thus, `"bread"` occurs in this array at index 0. The remaining indices are numbered consecutively up until the last element in the array. For example, `"lettuce"` occurs at index 6.
+You will recall that each individual location or position in an array is called an index. The starting index in an array is always 0. Thus, "bread" occurs in this array at index 0. The remaining indices are numbered consecutively up until the last element in the array. For example, "lettuce" occurs at index 6.
 
 You can find the index of any element in an array by writing your own `indexOf()` function.
 
@@ -121,7 +121,7 @@ function indexOf(arr, str){
 }
 ```
 
-We already know that `"bread"` occurs at index 0. Here we are also finding the indices for `"lettuce"`, `"paper towels"`, and `"apple juice"`. What will get printed to the screen? What index values will be returned for each of these things?
+We already know that "bread" occurs at index 0. Here we are also finding the indices for "lettuce", "paper towels", and "apple juice". What will get printed to the screen? What index values will be returned for each of these things?
 
 Answer:
 
