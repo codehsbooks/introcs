@@ -28,7 +28,7 @@ Remember,
 1. Precondition - what is true about the world before the function is called
 2. Postcondition - what is true about the world after the function is called.
 
-
+<!--
 ##  Test Your Understanding
 See how well you understand comments:
 
@@ -91,3 +91,4 @@ function jumpHurdle(){ </br>
 > This is not correct.  The comment above is exactly what a function comment should look like.  It describes the purpose of the function, the preconditions (what we assume is true about the world before the function is called), and the postconditions (what the world will be like after the function is called) 
 
 ---
+-->
