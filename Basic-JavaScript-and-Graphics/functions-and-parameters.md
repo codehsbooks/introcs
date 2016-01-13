@@ -39,8 +39,8 @@ Let's write the `addTen` function in code:
 
 ```
 function addTen(x){
-  var xPlusTen = x + 10;
-  println(xPlusTen);
+    var xPlusTen = x + 10;
+    println(xPlusTen);
 }
 ```
 Notice that there is an `x` that is being taken in and used by the function. This is the parameter. Its value will 
@@ -73,8 +73,8 @@ by `x` and `y`, and adds them:
 
 ```
 function add(x, y){
-  var sum = x + y;
-  println(sum);
+    var sum = x + y;
+    println(sum);
 }
 ```
 We call the function in a similar manner. If we give the function the following calls:
@@ -106,10 +106,10 @@ circles:
 
 ```
 function drawCircle(color, radius, xPos, yPos){
-  var circ = new Circle(radius);
-  circ.setPosition(xPos, yPos);
-  circ.setColor(color);
-  add(circ);
+    var circ = new Circle(radius);
+    circ.setPosition(xPos, yPos);
+    circ.setColor(color);
+    add(circ);
 }
 ```
 To draw a green circle of radius 12 at position 50, 75:
@@ -136,9 +136,4 @@ above, even though it is using the same numbers!
 ![drawCircle function](../static/javaScript/parameters_circle_2.png "drawCircle function")
 
 In conclusion, order matters when you are using parameters.
-
-
-
-
-
 
