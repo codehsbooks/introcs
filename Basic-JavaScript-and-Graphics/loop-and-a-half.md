@@ -12,7 +12,7 @@ An example of an infinite loop is:
 
 ```
 while(true) {
-  // code to execute
+    // code to execute
 }
 ```
 
@@ -27,11 +27,11 @@ This can be combined with the while loop given above to provide a way to exit th
 
 ```
 while(true) {
-  // code to execute
-  
-  if(condition) {
-    break;
-  }
+    // code to execute
+    
+    if(condition) {
+        break;
+    }
 }
 ```
 
@@ -47,10 +47,10 @@ you could set up a global sentinel value containing the string "hello world."
 var SENTINEL = "hello world";
 
 function start() {
-  var input = readLine("Type in some text: ");
-  if(input == SENTINEL) {
-    println("Hello to you as well!");
-  }
+    var input = readLine("Type in some text: ");
+    if(input == SENTINEL) {
+        println("Hello to you as well!");
+    }
 }
 ```
 
@@ -62,13 +62,13 @@ ending the loop.
 var SENTINEL = -1;
 
 function start(){
-  while(true){
-    var num = readInt("Enter a number: ");
-    if(num == SENTINEL){
-      break;
+    while(true){
+        var num = readInt("Enter a number: ");
+        if(num == SENTINEL){
+            break;
+        }
+        println(num);
     }
-    println(num);
-  }
 }
 ```
 
