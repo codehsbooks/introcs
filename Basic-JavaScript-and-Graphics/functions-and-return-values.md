@@ -8,8 +8,8 @@ Recall the `addTen` function from the previous chapter:
 
 ```
 function addTen(x){
-  var xPlusTen = x + 10;
-  println(xPlusTen);
+    var xPlusTen = x + 10;
+    println(xPlusTen);
 }
 ```
 
@@ -28,8 +28,8 @@ Here's how to rewrite `addTen` to return a value instead of printing:
 
 ```
 function addTen(x){
-  var xPlusTen = x + 10;
-  return xPlusTen;
+    var xPlusTen = x + 10;
+    return xPlusTen;
 }
 ```
 
@@ -59,8 +59,8 @@ to return the sum instead of print it to the screen:
 
 ```
 function add(x, y){
-  var sum = x + y;
-  return sum;
+    var sum = x + y;
+    return sum;
 }
 ```
 We can now call the function and store its return values 
