@@ -110,6 +110,7 @@ In this function, there is a function parameter and a local variable named ```si
 
 In summary, local variables are variables that belong to a particular function.  The scope of a variable is which function it was declared in or passed in to.
 
+<!--
 ### Test Your Understanding
 ---
 
@@ -220,3 +221,5 @@ function fillElevator(poundLimit, areaLimit){
 > This is not correct.  This variables has scope ```start```.
 
 ---
+
+-->
