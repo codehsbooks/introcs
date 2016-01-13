@@ -42,86 +42,87 @@ function goToStore(){
 
 We've only declared one of the needed functions in this example, but the point should be clear.  All of the commands we want to execute are inside of the start function.  We can read the script and tell exactly what will happen.  It's like a short story of how we went to the store, bought chocolate, and came home and ate it! Notice that the function declaration is OUTSIDE of the start function.
 
-<!--### Test Your Understanding-->
-<!--Consider each code snippet.  Decide if the start function is formatted correctly and answer the question below the piece of code.-->
+<!--
+### Test Your Understanding
+Consider each code snippet.  Decide if the start function is formatted correctly and answer the question below the piece of code.
 
-<!------->
+---
 
-<!--<p>-->
-<!--function Start() {</br>                        -->
-<!--&emsp;// program commands go here </br>-->
-<!--    }</br>                          </br>       -->
-<!--Is this start function declared correctly?-->
-<!--</p>-->
-<!--- (x) Yes-->
-<!--- ( ) No-->
+<p>
+function Start() {</br>                        
+&emsp;// program commands go here </br>
+    }</br>                          </br>       
+Is this start function declared correctly?
+</p>
+- (x) Yes
+- ( ) No
 
-<!--> Yes.  All commands go inside of the start function-->
-<!--> Not quite.  This is declared correctly since all of the commands are inside of the start function.-->
-
-
-<!--<p>-->
-<!--       function start() {           </br>-->
-<!--                                       </br>-->
-<!--        }                              </br>-->
-<!--        &emsp;// program commands go here   </br> </br>-->
-<!--Is this start function declared correctly?-->
-<!--</p>-->
-<!--- ( ) Yes-->
-<!--- (x) No-->
-
-<!--> No!  Program commands must go INSIDE the start function-->
-
-<!--> Correct!-->
+> Yes.  All commands go inside of the start function
+> Not quite.  This is declared correctly since all of the commands are inside of the start function.
 
 
-<!--<p>-->
-<!--function start() { </br>-->
-<!--    &emsp;start();        </br>           -->
-<!--    &emsp;// program commands go here </br>-->
-<!--    }  </br>                       </br>-->
-<!--Is this start function declared correctly?-->
-<!--</p>-->
-<!--- ( ) Yes-->
-<!--- (x) No-->
+<p>
+       function start() {           </br>
+                                       </br>
+        }                              </br>
+        &emsp;// program commands go here   </br> </br>
+Is this start function declared correctly?
+</p>
+- ( ) Yes
+- (x) No
 
-<!--> No!  Do not call the start function!  It gets called automatically.-->
+> No!  Program commands must go INSIDE the start function
 
-<!--> Correct!-->
-
-
-<!--<p>-->
-<!--    function start() { </br>-->
-<!--    &emsp;function putThreeBalls(){  </br>-->
-<!--    &emsp; &emsp;// function definition goes here </br> -->
-<!--    &emsp;}     </br>-->
-<!--    &emsp;// program commands go here  </br>-->
-<!--    }  </br> </br>-->
-<!--Is this start function declared correctly?-->
-<!--</p>-->
-<!--- ( ) Yes-->
-<!--- (x) No-->
-
-<!--> No! Do not define functions inside of the start function.-->
-
-<!--> Correct!-->
+> Correct!
 
 
-<!--<p>-->
-<!--    function start() { </br>-->
-<!--&emsp;// program commands go here </br>-->
-<!--     </br>-->
-<!--&emsp;function putThreeBalls(){  </br>-->
-<!--&emsp; &emsp;// function definition goes here </br>-->
-<!--    } </br> </br>-->
-<!--    Is this start function declared correctly?-->
-<!--</p>-->
-<!--- (x) Yes-->
-<!--- ( ) No-->
+<p>
+function start() { </br>
+    &emsp;start();        </br>           
+    &emsp;// program commands go here </br>
+    }  </br>                       </br>
+Is this start function declared correctly?
+</p>
+- ( ) Yes
+- (x) No
 
-<!--> Yes! Functions can be declared outside of the start function.-->
+> No!  Do not call the start function!  It gets called automatically.
 
-<!--> Not quite! Functions can be declared outside of the start function.-->
+> Correct!
 
-<!------->
 
+<p>
+    function start() { </br>
+    &emsp;function putThreeBalls(){  </br>
+    &emsp; &emsp;// function definition goes here </br> 
+    &emsp;}     </br>
+    &emsp;// program commands go here  </br>
+    }  </br> </br>
+Is this start function declared correctly?
+</p>
+- ( ) Yes
+- (x) No
+
+> No! Do not define functions inside of the start function.
+
+> Correct!
+
+
+<p>
+    function start() { </br>
+&emsp;// program commands go here </br>
+     </br>
+&emsp;function putThreeBalls(){  </br>
+&emsp; &emsp;// function definition goes here </br>
+    } </br> </br>
+    Is this start function declared correctly?
+</p>
+- (x) Yes
+- ( ) No
+
+> Yes! Functions can be declared outside of the start function.
+
+> Not quite! Functions can be declared outside of the start function.
+
+---
+-->
