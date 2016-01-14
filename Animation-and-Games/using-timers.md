@@ -40,6 +40,7 @@ function drawCircle(radius, color, x, y){
 
 Let's start by examining the timer. The timer is created at the very beginning of the program in the `start` function.
 
+<!--
 ---
 
 What function is the timer calling?
@@ -71,6 +72,7 @@ How often does the timer call this function?
 > Correct!
 
 ---
+-->
 
 ## Stopping a Timer
 
@@ -88,6 +90,7 @@ Karel could then stop the timer by issuing the following command:
 stopTimer(giveTreat);
 ```
 
+<!--
 ---
 
 In the Random Circles program above, what command will stop the timer from drawing new circles?
@@ -120,6 +123,7 @@ When does the timer stop in the Random Circles program?
 > We run things, things don't run we.
 
 ---
+-->
 
 ## Using Multiple Functions with a Timer
 
