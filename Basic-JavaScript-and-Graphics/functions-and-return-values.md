@@ -39,7 +39,7 @@ parameter does not print the value to the console.
 ## Calling a Function With a Return Value
 
 A return value by itself would not be very useful, given that it does not print to the console. Fortunately, we
-can store a funtion's return value into a variable. Take a look at the following code:
+can store a function's return value into a variable. Take a look at the following code:
 
 ```
 var num = 7;
