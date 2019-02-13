@@ -83,7 +83,7 @@ Then, we will set the location of the rectangle to be 60 pixels to the right, 15
 Lastly, we'll finish by setting its color to red and adding it to the canvas. 
 
 ###Example: 8 Ball
-Here's one more complex example: We will draw an 8 ball on the canvas. We first will create a new ball with a radius of 100. Then, we will find the middle of the canvas by using ```getWidth()``` and ```getHeight()``` and dividing those properties by 2. After, we will set the ball's position to be in the middle of the canvas and add it to the canvas. For the text, we will create new text, set its font and color, then subtract half of the text's width from the center width of the canvas and add half of the text's width to the center height of the canvas. 
+Here's one more complex example: We will draw an 8 ball on the canvas. We first will create a new ball with a radius of 100. Then, we will find the middle of the canvas by using ```getWidth()``` and ```getHeight()``` and dividing those properties by 2. After, we will set the ball's position to be in the middle of the canvas and add it to the canvas. For the text, we will create new text, set its font and color, then subtract half of the text's width from the center width of the canvas and add half of the text's height to the center height of the canvas. 
 ```
 // This program will draw an 8 ball 
 // centered on the screen. The circle
@@ -100,7 +100,7 @@ function start(){
 	var number = new Text("8");
 	number.setFont("50pt Arial");
 	number.setColor(Color.white);
-	number.setPosition(centerX - number.getWidth()/2, centerY + number.getWidth()/2);
+	number.setPosition(centerX - number.getWidth()/2, centerY + number.getHeight()/2);
 	add(number);
 }
 ```
